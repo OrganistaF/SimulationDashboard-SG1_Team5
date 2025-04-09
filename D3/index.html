@@ -1,0 +1,50 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <title>Leaf Project</title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://d3js.org/d3.v6.min.js"></script>
+
+</head>
+
+<body>
+    <nav class="navbar navbar-default">
+        <div class="container">
+        </div>
+    </nav>
+
+    <div class="controls">
+        <div class="control-group">
+            <button id="playPause">Play</button>
+            <button id="reset">Reset</button>
+        </div>
+        <div class="control-group">
+            <label for="continentFilter">Filter by Continent:</label>
+            <select id="workstationFilter">
+                <option value="all">All Workstations</option>
+            </select>
+        </div>
+        <div class="slider-container">
+            <label for="dateSlider" >Year: <span id="dateValue">1800</span></label>
+            <input type="range" id="dateSlider" min="0" max="220" step="1" value="0">
+        </div>
+    </div>
+
+
+    <!-- Bootstrap grid setup -->
+    <div class="container">
+        <div class="row">
+            <div id="chart-area"></div>  
+        </div>
+    </div>
+
+
+
+
+<script src="js/main.js"></script>
+
+</body>
+</html>

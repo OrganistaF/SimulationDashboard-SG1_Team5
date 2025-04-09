@@ -1,0 +1,1082 @@
+[
+   {
+      "fecha": "2025-03-15",
+      "resultados": {
+         "Final production": 975,
+         "Rejected productions": 25,
+         "Total fix time": 336.73518772328094,
+         "Average bottleneck delay": 3914.941309033948,
+         "Workstations occupancy": {
+            "1": 3995.29,
+            "2": 3970.01,
+            "3": 3931.09,
+            "4": 3901.7,
+            "5": 3873.68,
+            "6": 3841.88
+         },
+         "Supplier occupancy": 812.0919167941031,
+         "Workstation downtime": {
+            "1": 12.2,
+            "2": 5.86,
+            "3": 32.96,
+            "4": 171.19,
+            "5": 59.63,
+            "6": 54.9
+         },
+         "Faulty Products Rate": 0.025
+      }
+   },
+   {
+      "fecha": "2025-03-16",
+      "resultados": {
+         "Final production": 965,
+         "Rejected productions": 35,
+         "Total fix time": 378.2825621253377,
+         "Average bottleneck delay": 3892.3485307084834,
+         "Workstations occupancy": {
+            "1": 4003.93,
+            "2": 3950.11,
+            "3": 3907.46,
+            "4": 3849.25,
+            "5": 3867.91,
+            "6": 3799.43
+         },
+         "Supplier occupancy": 797.0325105395306,
+         "Workstation downtime": {
+            "1": 18.93,
+            "2": 10.18,
+            "3": 56.9,
+            "4": 132.97,
+            "5": 114.34,
+            "6": 44.95
+         },
+         "Faulty Products Rate": 0.035
+      }
+   },
+   {
+      "fecha": "2025-03-17",
+      "resultados": {
+         "Final production": 972,
+         "Rejected productions": 28,
+         "Total fix time": 451.7314304291786,
+         "Average bottleneck delay": 3902.6729527211787,
+         "Workstations occupancy": {
+            "1": 3998.86,
+            "2": 3953.99,
+            "3": 3911.92,
+            "4": 3875.91,
+            "5": 3880.9,
+            "6": 3818.46
+         },
+         "Supplier occupancy": 728.5673876294849,
+         "Workstation downtime": {
+            "1": 41.04,
+            "2": 5.95,
+            "3": 80.46,
+            "4": 183.72,
+            "5": 114.84,
+            "6": 25.72
+         },
+         "Faulty Products Rate": 0.028
+      }
+   },
+   {
+      "fecha": "2025-03-18",
+      "resultados": {
+         "Final production": 980,
+         "Rejected productions": 20,
+         "Total fix time": 313.51180227446,
+         "Average bottleneck delay": 3932.220471593147,
+         "Workstations occupancy": {
+            "1": 3996.64,
+            "2": 3981.04,
+            "3": 3961.3,
+            "4": 3912.22,
+            "5": 3907.55,
+            "6": 3858.56
+         },
+         "Supplier occupancy": 788.3127006327788,
+         "Workstation downtime": {
+            "1": 8.42,
+            "2": 7.64,
+            "3": 46.54,
+            "4": 99.53,
+            "5": 111.59,
+            "6": 39.8
+         },
+         "Faulty Products Rate": 0.02
+      }
+   },
+   {
+      "fecha": "2025-03-19",
+      "resultados": {
+         "Final production": 972,
+         "Rejected productions": 28,
+         "Total fix time": 376.08995552348205,
+         "Average bottleneck delay": 3909.415149341246,
+         "Workstations occupancy": {
+            "1": 4000.53,
+            "2": 3965.1,
+            "3": 3930.55,
+            "4": 3867.76,
+            "5": 3888.85,
+            "6": 3827.7
+         },
+         "Supplier occupancy": 869.4280133919774,
+         "Workstation downtime": {
+            "1": 42.73,
+            "2": 13.93,
+            "3": 74.28,
+            "4": 155.41,
+            "5": 67.06,
+            "6": 22.67
+         },
+         "Faulty Products Rate": 0.028
+      }
+   },
+   {
+      "fecha": "2025-03-20",
+      "resultados": {
+         "Final production": 973,
+         "Rejected productions": 27,
+         "Total fix time": 364.13339003004506,
+         "Average bottleneck delay": 3913.1101381837216,
+         "Workstations occupancy": {
+            "1": 4003.65,
+            "2": 3959.64,
+            "3": 3938.73,
+            "4": 3875.8,
+            "5": 3887.74,
+            "6": 3837.1
+         },
+         "Supplier occupancy": 846.8555508551393,
+         "Workstation downtime": {
+            "1": 17.39,
+            "2": 8.89,
+            "3": 73.94,
+            "4": 187.73,
+            "5": 65.92,
+            "6": 10.26
+         },
+         "Faulty Products Rate": 0.027
+      }
+   },
+   {
+      "fecha": "2025-03-21",
+      "resultados": {
+         "Final production": 306,
+         "Rejected productions": 5,
+         "Total fix time": 89.9313270023705,
+         "Average bottleneck delay": 1189.2490207249318,
+         "Workstations occupancy": {
+            "1": 1243.44,
+            "2": 1227.54,
+            "3": 1206.44,
+            "4": 1174.59,
+            "5": 1165.92,
+            "6": 1141.57
+         },
+         "Supplier occupancy": 249.2277830086049,
+         "Workstation downtime": {
+            "1": 0,
+            "2": 0,
+            "3": 10.74,
+            "4": 38.15,
+            "5": 24.16,
+            "6": 16.88
+         },
+         "Faulty Products Rate": 0.01607717041800643
+      }
+   },
+   {
+      "fecha": "2025-03-22",
+      "resultados": {
+         "Final production": 972,
+         "Rejected productions": 28,
+         "Total fix time": 387.89400044429186,
+         "Average bottleneck delay": 3913.9523364420043,
+         "Workstations occupancy": {
+            "1": 3991.91,
+            "2": 3975.73,
+            "3": 3930.4,
+            "4": 3878.15,
+            "5": 3889.95,
+            "6": 3841.57
+         },
+         "Supplier occupancy": 807.7384332106044,
+         "Workstation downtime": {
+            "1": 43.38,
+            "2": 10.87,
+            "3": 61.43,
+            "4": 186.64,
+            "5": 64.8,
+            "6": 20.78
+         },
+         "Faulty Products Rate": 0.028
+      }
+   },
+   {
+      "fecha": "2025-03-23",
+      "resultados": {
+         "Final production": 961,
+         "Rejected productions": 39,
+         "Total fix time": 371.20633084053895,
+         "Average bottleneck delay": 3882.21193225639,
+         "Workstations occupancy": {
+            "1": 3987.18,
+            "2": 3936.25,
+            "3": 3900.18,
+            "4": 3846.67,
+            "5": 3851.01,
+            "6": 3795.99
+         },
+         "Supplier occupancy": 895.0775824686606,
+         "Workstation downtime": {
+            "1": 20.54,
+            "2": 0,
+            "3": 110.24,
+            "4": 146.43,
+            "5": 76.43,
+            "6": 17.56
+         },
+         "Faulty Products Rate": 0.039
+      }
+   },
+   {
+      "fecha": "2025-03-24",
+      "resultados": {
+         "Final production": 962,
+         "Rejected productions": 38,
+         "Total fix time": 328.5824672529015,
+         "Average bottleneck delay": 3893.8881298176984,
+         "Workstations occupancy": {
+            "1": 4001.76,
+            "2": 3957.78,
+            "3": 3911.47,
+            "4": 3841.08,
+            "5": 3875.74,
+            "6": 3799.52
+         },
+         "Supplier occupancy": 804.5790978215608,
+         "Workstation downtime": {
+            "1": 19.45,
+            "2": 0,
+            "3": 75.07,
+            "4": 128.86,
+            "5": 81.86,
+            "6": 23.34
+         },
+         "Faulty Products Rate": 0.038
+      }
+   },
+   {
+      "fecha": "2025-03-25",
+      "resultados": {
+         "Final production": 967,
+         "Rejected productions": 33,
+         "Total fix time": 220.73894092582998,
+         "Average bottleneck delay": 3894.9197774323056,
+         "Workstations occupancy": {
+            "1": 3994.21,
+            "2": 3961.75,
+            "3": 3923.36,
+            "4": 3852.43,
+            "5": 3862.16,
+            "6": 3799.61
+         },
+         "Supplier occupancy": 909.6937984005968,
+         "Workstation downtime": {
+            "1": 9.95,
+            "2": 2.09,
+            "3": 57.84,
+            "4": 70.84,
+            "5": 66.18,
+            "6": 13.84
+         },
+         "Faulty Products Rate": 0.033
+      }
+   },
+   {
+      "fecha": "2025-03-26",
+      "resultados": {
+         "Final production": 965,
+         "Rejected productions": 35,
+         "Total fix time": 393.21547930283924,
+         "Average bottleneck delay": 3905.7871822042034,
+         "Workstations occupancy": {
+            "1": 4013.45,
+            "2": 3959.29,
+            "3": 3914.89,
+            "4": 3881.76,
+            "5": 3870.93,
+            "6": 3818.4
+         },
+         "Supplier occupancy": 721.8114731788792,
+         "Workstation downtime": {
+            "1": 17.53,
+            "2": 9.13,
+            "3": 45.02,
+            "4": 187.02,
+            "5": 80.82,
+            "6": 53.68
+         },
+         "Faulty Products Rate": 0.035
+      }
+   },
+   {
+      "fecha": "2025-03-27",
+      "resultados": {
+         "Final production": 974,
+         "Rejected productions": 26,
+         "Total fix time": 450.4306250180983,
+         "Average bottleneck delay": 3916.8087918945275,
+         "Workstations occupancy": {
+            "1": 3996.07,
+            "2": 3983.0,
+            "3": 3942.0,
+            "4": 3872.1,
+            "5": 3896.0,
+            "6": 3835.68
+         },
+         "Supplier occupancy": 834.0941881977649,
+         "Workstation downtime": {
+            "1": 20.54,
+            "2": 4.98,
+            "3": 81.34,
+            "4": 185.17,
+            "5": 104.41,
+            "6": 54.0
+         },
+         "Faulty Products Rate": 0.026
+      }
+   },
+   {
+      "fecha": "2025-03-28",
+      "resultados": {
+         "Final production": 980,
+         "Rejected productions": 20,
+         "Total fix time": 351.7688606142807,
+         "Average bottleneck delay": 3918.059947340162,
+         "Workstations occupancy": {
+            "1": 4002.31,
+            "2": 3968.21,
+            "3": 3935.75,
+            "4": 3898.66,
+            "5": 3879.42,
+            "6": 3848.0
+         },
+         "Supplier occupancy": 731.4003270527835,
+         "Workstation downtime": {
+            "1": 21.48,
+            "2": 0.93,
+            "3": 46.99,
+            "4": 169.14,
+            "5": 95.39,
+            "6": 17.83
+         },
+         "Faulty Products Rate": 0.02
+      }
+   },
+   {
+      "fecha": "2025-03-29",
+      "resultados": {
+         "Final production": 964,
+         "Rejected productions": 36,
+         "Total fix time": 377.30651066713267,
+         "Average bottleneck delay": 3895.767187866697,
+         "Workstations occupancy": {
+            "1": 3999.05,
+            "2": 3957.16,
+            "3": 3919.99,
+            "4": 3860.28,
+            "5": 3868.01,
+            "6": 3794.1
+         },
+         "Supplier occupancy": 677.3417091858462,
+         "Workstation downtime": {
+            "1": 19.98,
+            "2": 0,
+            "3": 71.99,
+            "4": 143.26,
+            "5": 107.16,
+            "6": 34.92
+         },
+         "Faulty Products Rate": 0.036
+      }
+   },
+   {
+      "fecha": "2025-03-30",
+      "resultados": {
+         "Final production": 971,
+         "Rejected productions": 29,
+         "Total fix time": 343.2215008557048,
+         "Average bottleneck delay": 3904.9570967694794,
+         "Workstations occupancy": {
+            "1": 4000.91,
+            "2": 3961.65,
+            "3": 3907.3,
+            "4": 3867.63,
+            "5": 3888.9,
+            "6": 3827.36
+         },
+         "Supplier occupancy": 770.9039477676215,
+         "Workstation downtime": {
+            "1": 14.94,
+            "2": 2.69,
+            "3": 50.81,
+            "4": 185.39,
+            "5": 66.38,
+            "6": 23.01
+         },
+         "Faulty Products Rate": 0.029
+      }
+   },
+   {
+      "fecha": "2025-03-31",
+      "resultados": {
+         "Final production": 969,
+         "Rejected productions": 31,
+         "Total fix time": 319.7160765797073,
+         "Average bottleneck delay": 3902.3160835352323,
+         "Workstations occupancy": {
+            "1": 3996.04,
+            "2": 3953.44,
+            "3": 3935.35,
+            "4": 3869.94,
+            "5": 3873.86,
+            "6": 3809.27
+         },
+         "Supplier occupancy": 650.0935567849313,
+         "Workstation downtime": {
+            "1": 20.77,
+            "2": 3.14,
+            "3": 24.02,
+            "4": 163.55,
+            "5": 96.45,
+            "6": 11.78
+         },
+         "Faulty Products Rate": 0.031
+      }
+   },
+   {
+      "fecha": "2025-04-01",
+      "resultados": {
+         "Final production": 974,
+         "Rejected productions": 26,
+         "Total fix time": 308.26493162422184,
+         "Average bottleneck delay": 3920.376374231108,
+         "Workstations occupancy": {
+            "1": 4010.38,
+            "2": 3992.96,
+            "3": 3944.13,
+            "4": 3880.5,
+            "5": 3892.34,
+            "6": 3825.95
+         },
+         "Supplier occupancy": 819.9093870555639,
+         "Workstation downtime": {
+            "1": 5.9,
+            "2": 0,
+            "3": 31.67,
+            "4": 158.4,
+            "5": 86.08,
+            "6": 26.22
+         },
+         "Faulty Products Rate": 0.026
+      }
+   },
+   {
+      "fecha": "2025-04-02",
+      "resultados": {
+         "Final production": 964,
+         "Rejected productions": 36,
+         "Total fix time": 314.2905610165943,
+         "Average bottleneck delay": 3902.087224173539,
+         "Workstations occupancy": {
+            "1": 3998.3,
+            "2": 3965.24,
+            "3": 3924.0,
+            "4": 3871.67,
+            "5": 3875.3,
+            "6": 3802.01
+         },
+         "Supplier occupancy": 715.996165987719,
+         "Workstation downtime": {
+            "1": 21.36,
+            "2": 4.42,
+            "3": 65.18,
+            "4": 114.56,
+            "5": 107.77,
+            "6": 0.99
+         },
+         "Faulty Products Rate": 0.036
+      }
+   },
+   {
+      "fecha": "2025-04-03",
+      "resultados": {
+         "Final production": 968,
+         "Rejected productions": 32,
+         "Total fix time": 290.10664740165987,
+         "Average bottleneck delay": 3895.6024409850966,
+         "Workstations occupancy": {
+            "1": 3990.7,
+            "2": 3950.44,
+            "3": 3929.37,
+            "4": 3871.1,
+            "5": 3860.24,
+            "6": 3795.77
+         },
+         "Supplier occupancy": 945.7009241922187,
+         "Workstation downtime": {
+            "1": 28.84,
+            "2": 3.29,
+            "3": 70.61,
+            "4": 92.36,
+            "5": 86.56,
+            "6": 8.45
+         },
+         "Faulty Products Rate": 0.032
+      }
+   },
+   {
+      "fecha": "2025-04-04",
+      "resultados": {
+         "Final production": 966,
+         "Rejected productions": 34,
+         "Total fix time": 333.3017427371856,
+         "Average bottleneck delay": 3893.7676855058144,
+         "Workstations occupancy": {
+            "1": 3996.2,
+            "2": 3959.1,
+            "3": 3906.8,
+            "4": 3851.24,
+            "5": 3866.2,
+            "6": 3807.06
+         },
+         "Supplier occupancy": 813.2565153502981,
+         "Workstation downtime": {
+            "1": 22.89,
+            "2": 8.4,
+            "3": 36.72,
+            "4": 165.93,
+            "5": 66.93,
+            "6": 32.42
+         },
+         "Faulty Products Rate": 0.034
+      }
+   },
+   {
+      "fecha": "2025-04-05",
+      "resultados": {
+         "Final production": 971,
+         "Rejected productions": 29,
+         "Total fix time": 403.7375151901619,
+         "Average bottleneck delay": 3902.6008415188494,
+         "Workstations occupancy": {
+            "1": 3998.49,
+            "2": 3961.41,
+            "3": 3927.48,
+            "4": 3881.5,
+            "5": 3859.1,
+            "6": 3811.63
+         },
+         "Supplier occupancy": 766.1128945412237,
+         "Workstation downtime": {
+            "1": 35.94,
+            "2": 0,
+            "3": 66.2,
+            "4": 184.77,
+            "5": 101.44,
+            "6": 15.39
+         },
+         "Faulty Products Rate": 0.029
+      }
+   },
+   {
+      "fecha": "2025-04-06",
+      "resultados": {
+         "Final production": 973,
+         "Rejected productions": 27,
+         "Total fix time": 435.4910621703529,
+         "Average bottleneck delay": 3919.4035318722504,
+         "Workstations occupancy": {
+            "1": 4007.63,
+            "2": 3979.89,
+            "3": 3952.22,
+            "4": 3881.42,
+            "5": 3879.71,
+            "6": 3839.55
+         },
+         "Supplier occupancy": 791.2224854864381,
+         "Workstation downtime": {
+            "1": 13.59,
+            "2": 2.8,
+            "3": 85.5,
+            "4": 170.89,
+            "5": 103.77,
+            "6": 58.93
+         },
+         "Faulty Products Rate": 0.027
+      }
+   },
+   {
+      "fecha": "2025-04-07",
+      "resultados": {
+         "Final production": 384,
+         "Rejected productions": 11,
+         "Total fix time": 172.05412723710918,
+         "Average bottleneck delay": 1517.9747623332714,
+         "Workstations occupancy": {
+            "1": 1579.31,
+            "2": 1551.72,
+            "3": 1530.55,
+            "4": 1511.49,
+            "5": 1489.8,
+            "6": 1468.99
+         },
+         "Supplier occupancy": 341.3867727848114,
+         "Workstation downtime": {
+            "1": 8.93,
+            "2": 6.45,
+            "3": 49.26,
+            "4": 40.75,
+            "5": 46.45,
+            "6": 20.22
+         },
+         "Faulty Products Rate": 0.027848101265822784
+      }
+   },
+   {
+      "fecha": "2025-04-08",
+      "resultados": {
+         "Final production": 964,
+         "Rejected productions": 36,
+         "Total fix time": 352.5032593805261,
+         "Average bottleneck delay": 3900.2804504457613,
+         "Workstations occupancy": {
+            "1": 4000.0,
+            "2": 3972.22,
+            "3": 3936.59,
+            "4": 3856.59,
+            "5": 3872.89,
+            "6": 3787.39
+         },
+         "Supplier occupancy": 741.4731147445556,
+         "Workstation downtime": {
+            "1": 25.84,
+            "2": 0,
+            "3": 58.22,
+            "4": 143.74,
+            "5": 106.35,
+            "6": 18.36
+         },
+         "Faulty Products Rate": 0.036
+      }
+   },
+   {
+      "fecha": "2025-04-09",
+      "resultados": {
+         "Final production": 972,
+         "Rejected productions": 28,
+         "Total fix time": 302.12767044527425,
+         "Average bottleneck delay": 3903.212965861192,
+         "Workstations occupancy": {
+            "1": 3979.24,
+            "2": 3955.4,
+            "3": 3940.63,
+            "4": 3864.01,
+            "5": 3884.73,
+            "6": 3819.26
+         },
+         "Supplier occupancy": 881.6043776634474,
+         "Workstation downtime": {
+            "1": 8.22,
+            "2": 7.11,
+            "3": 56.99,
+            "4": 116.76,
+            "5": 76.5,
+            "6": 36.54
+         },
+         "Faulty Products Rate": 0.028
+      }
+   },
+   {
+      "fecha": "2025-04-10",
+      "resultados": {
+         "Final production": 977,
+         "Rejected productions": 23,
+         "Total fix time": 265.4634172451504,
+         "Average bottleneck delay": 3917.775358377476,
+         "Workstations occupancy": {
+            "1": 4001.86,
+            "2": 3955.62,
+            "3": 3929.73,
+            "4": 3883.44,
+            "5": 3908.62,
+            "6": 3851.38
+         },
+         "Supplier occupancy": 751.8113853529295,
+         "Workstation downtime": {
+            "1": 9.0,
+            "2": 0.75,
+            "3": 42.29,
+            "4": 105.99,
+            "5": 104.76,
+            "6": 2.67
+         },
+         "Faulty Products Rate": 0.023
+      }
+   },
+   {
+      "fecha": "2025-04-11",
+      "resultados": {
+         "Final production": 974,
+         "Rejected productions": 26,
+         "Total fix time": 287.80037096521454,
+         "Average bottleneck delay": 3918.5747670887345,
+         "Workstations occupancy": {
+            "1": 4001.58,
+            "2": 3965.19,
+            "3": 3943.37,
+            "4": 3890.99,
+            "5": 3896.56,
+            "6": 3837.76
+         },
+         "Supplier occupancy": 771.0969424055392,
+         "Workstation downtime": {
+            "1": 8.92,
+            "2": 6.11,
+            "3": 91.26,
+            "4": 116.39,
+            "5": 51.02,
+            "6": 14.09
+         },
+         "Faulty Products Rate": 0.026
+      }
+   },
+   {
+      "fecha": "2025-04-12",
+      "resultados": {
+         "Final production": 968,
+         "Rejected productions": 32,
+         "Total fix time": 447.1048077762504,
+         "Average bottleneck delay": 3901.007518524622,
+         "Workstations occupancy": {
+            "1": 3994.86,
+            "2": 3964.08,
+            "3": 3913.52,
+            "4": 3862.93,
+            "5": 3874.01,
+            "6": 3820.64
+         },
+         "Supplier occupancy": 792.4631545616226,
+         "Workstation downtime": {
+            "1": 12.03,
+            "2": 10.17,
+            "3": 52.51,
+            "4": 145.28,
+            "5": 171.04,
+            "6": 56.08
+         },
+         "Faulty Products Rate": 0.032
+      }
+   },
+   {
+      "fecha": "2025-04-13",
+      "resultados": {
+         "Final production": 979,
+         "Rejected productions": 21,
+         "Total fix time": 305.59840269082434,
+         "Average bottleneck delay": 3926.7212413824914,
+         "Workstations occupancy": {
+            "1": 4004.38,
+            "2": 3974.94,
+            "3": 3945.52,
+            "4": 3911.3,
+            "5": 3904.88,
+            "6": 3843.3
+         },
+         "Supplier occupancy": 719.6196291579404,
+         "Workstation downtime": {
+            "1": 28.18,
+            "2": 6.47,
+            "3": 40.49,
+            "4": 119.96,
+            "5": 80.76,
+            "6": 29.74
+         },
+         "Faulty Products Rate": 0.021
+      }
+   },
+   {
+      "fecha": "2025-04-14",
+      "resultados": {
+         "Final production": 969,
+         "Rejected productions": 31,
+         "Total fix time": 319.9353084142366,
+         "Average bottleneck delay": 3904.4059509143613,
+         "Workstations occupancy": {
+            "1": 4000.55,
+            "2": 3968.77,
+            "3": 3936.58,
+            "4": 3864.0,
+            "5": 3870.96,
+            "6": 3809.58
+         },
+         "Supplier occupancy": 848.4244070346542,
+         "Workstation downtime": {
+            "1": 32.39,
+            "2": 10.34,
+            "3": 37.86,
+            "4": 149.59,
+            "5": 74.52,
+            "6": 15.23
+         },
+         "Faulty Products Rate": 0.031
+      }
+   },
+   {
+      "fecha": "2025-04-15",
+      "resultados": {
+         "Final production": 968,
+         "Rejected productions": 32,
+         "Total fix time": 370.9654894352814,
+         "Average bottleneck delay": 3896.068951899575,
+         "Workstations occupancy": {
+            "1": 3992.23,
+            "2": 3961.86,
+            "3": 3903.61,
+            "4": 3860.78,
+            "5": 3861.31,
+            "6": 3820.64
+         },
+         "Supplier occupancy": 767.1336415603688,
+         "Workstation downtime": {
+            "1": 37.94,
+            "2": 0,
+            "3": 93.6,
+            "4": 115.35,
+            "5": 100.71,
+            "6": 23.36
+         },
+         "Faulty Products Rate": 0.032
+      }
+   },
+   {
+      "fecha": "2025-04-16",
+      "resultados": {
+         "Final production": 976,
+         "Rejected productions": 24,
+         "Total fix time": 386.0734799239007,
+         "Average bottleneck delay": 3930.288940369468,
+         "Workstations occupancy": {
+            "1": 3996.47,
+            "2": 3981.69,
+            "3": 3933.95,
+            "4": 3905.04,
+            "5": 3920.66,
+            "6": 3867.91
+         },
+         "Supplier occupancy": 710.1277253178091,
+         "Workstation downtime": {
+            "1": 29.04,
+            "2": 1.01,
+            "3": 70.71,
+            "4": 164.38,
+            "5": 79.18,
+            "6": 41.75
+         },
+         "Faulty Products Rate": 0.024
+      }
+   },
+   {
+      "fecha": "2025-04-17",
+      "resultados": {
+         "Final production": 967,
+         "Rejected productions": 33,
+         "Total fix time": 337.45609659437264,
+         "Average bottleneck delay": 3907.2471616178664,
+         "Workstations occupancy": {
+            "1": 3992.64,
+            "2": 3970.4,
+            "3": 3940.46,
+            "4": 3873.14,
+            "5": 3885.35,
+            "6": 3805.49
+         },
+         "Supplier occupancy": 752.6895638763347,
+         "Workstation downtime": {
+            "1": 24.32,
+            "2": 0,
+            "3": 60.23,
+            "4": 161.57,
+            "5": 82.47,
+            "6": 8.87
+         },
+         "Faulty Products Rate": 0.033
+      }
+   },
+   {
+      "fecha": "2025-04-18",
+      "resultados": {
+         "Final production": 334,
+         "Rejected productions": 10,
+         "Total fix time": 153.58822381182407,
+         "Average bottleneck delay": 1301.401039182187,
+         "Workstations occupancy": {
+            "1": 1376.84,
+            "2": 1340.64,
+            "3": 1304.29,
+            "4": 1276.48,
+            "5": 1280.72,
+            "6": 1253.44
+         },
+         "Supplier occupancy": 277.7689096096158,
+         "Workstation downtime": {
+            "1": 3.53,
+            "2": 10.35,
+            "3": 42.87,
+            "4": 52.66,
+            "5": 28.65,
+            "6": 15.52
+         },
+         "Faulty Products Rate": 0.029069767441860465
+      }
+   },
+   {
+      "fecha": "2025-04-19",
+      "resultados": {
+         "Final production": 970,
+         "Rejected productions": 30,
+         "Total fix time": 422.7027473609489,
+         "Average bottleneck delay": 3901.065215034831,
+         "Workstations occupancy": {
+            "1": 4008.08,
+            "2": 3951.09,
+            "3": 3914.61,
+            "4": 3860.59,
+            "5": 3879.56,
+            "6": 3816.47
+         },
+         "Supplier occupancy": 707.4369187463951,
+         "Workstation downtime": {
+            "1": 23.3,
+            "2": 10.72,
+            "3": 49.83,
+            "4": 160.39,
+            "5": 117.31,
+            "6": 61.16
+         },
+         "Faulty Products Rate": 0.03
+      }
+   },
+   {
+      "fecha": "2025-04-20",
+      "resultados": {
+         "Final production": 965,
+         "Rejected productions": 35,
+         "Total fix time": 304.3523090590661,
+         "Average bottleneck delay": 3894.640377646472,
+         "Workstations occupancy": {
+            "1": 3994.39,
+            "2": 3936.64,
+            "3": 3934.62,
+            "4": 3853.69,
+            "5": 3854.98,
+            "6": 3817.51
+         },
+         "Supplier occupancy": 792.1565438673332,
+         "Workstation downtime": {
+            "1": 30.38,
+            "2": 6.43,
+            "3": 39.18,
+            "4": 137.72,
+            "5": 61.71,
+            "6": 28.92
+         },
+         "Faulty Products Rate": 0.035
+      }
+   },
+   {
+      "fecha": "2025-04-21",
+      "resultados": {
+         "Final production": 977,
+         "Rejected productions": 23,
+         "Total fix time": 403.97133809373224,
+         "Average bottleneck delay": 3912.1886515317806,
+         "Workstations occupancy": {
+            "1": 4010.91,
+            "2": 3965.89,
+            "3": 3923.33,
+            "4": 3887.95,
+            "5": 3880.93,
+            "6": 3828.11
+         },
+         "Supplier occupancy": 736.5050621555472,
+         "Workstation downtime": {
+            "1": 37.56,
+            "2": 20.36,
+            "3": 80.48,
+            "4": 183.02,
+            "5": 62.06,
+            "6": 20.5
+         },
+         "Faulty Products Rate": 0.023
+      }
+   },
+   {
+      "fecha": "2025-04-22",
+      "resultados": {
+         "Final production": 260,
+         "Rejected productions": 10,
+         "Total fix time": 51.713913855509524,
+         "Average bottleneck delay": 1011.5795815360016,
+         "Workstations occupancy": {
+            "1": 1082.43,
+            "2": 1060.51,
+            "3": 1020.88,
+            "4": 988.4,
+            "5": 978.98,
+            "6": 962.28
+         },
+         "Supplier occupancy": 236.04749872139627,
+         "Workstation downtime": {
+            "1": 1.82,
+            "2": 2.74,
+            "3": 8.44,
+            "4": 27.53,
+            "5": 6.18,
+            "6": 5.0
+         },
+         "Faulty Products Rate": 0.037037037037037035
+      }
+   },
+   {
+      "fecha": "2025-04-23",
+      "resultados": {
+         "Final production": 977,
+         "Rejected productions": 23,
+         "Total fix time": 357.4025264350726,
+         "Average bottleneck delay": 3917.966240898822,
+         "Workstations occupancy": {
+            "1": 3995.96,
+            "2": 3978.26,
+            "3": 3944.32,
+            "4": 3893.93,
+            "5": 3879.12,
+            "6": 3840.21
+         },
+         "Supplier occupancy": 807.9265801191964,
+         "Workstation downtime": {
+            "1": 20.63,
+            "2": 7.72,
+            "3": 92.78,
+            "4": 134.62,
+            "5": 86.54,
+            "6": 15.1
+         },
+         "Faulty Products Rate": 0.023
+      }
+   }
+]
