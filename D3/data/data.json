@@ -2,1081 +2,2521 @@
    {
       "fecha": "2025-03-15",
       "resultados": {
-         "Final production": 975,
-         "Rejected productions": 25,
-         "Total fix time": 336.73518772328094,
-         "Average bottleneck delay": 3914.941309033948,
+         "Final production": 206,
+         "Total products generated": 213,
+         "Rejected productions": 7,
+         "Total fix time": 82.89385051279554,
+         "Average fix time per station": {
+            "1": 4.68,
+            "2": 0.0,
+            "3": 18.42,
+            "4": 17.88,
+            "5": 26.93,
+            "6": 5.62
+         },
+         "Average bottleneck delay": 789.0857398940793,
          "Workstations occupancy": {
-            "1": 3995.29,
-            "2": 3970.01,
-            "3": 3931.09,
-            "4": 3901.7,
-            "5": 3873.68,
-            "6": 3841.88
+            "1": 851.94,
+            "2": 824.6,
+            "3": 792.84,
+            "4": 769.91,
+            "5": 771.83,
+            "6": 747.39
          },
-         "Supplier occupancy": 812.0919167941031,
+         "Average workstation utilization": {
+            "1": 0.18,
+            "2": 0.17,
+            "3": 0.17,
+            "4": 0.16,
+            "5": 0.16,
+            "6": 0.16
+         },
+         "Supplier occupancy time": 140.33561832844583,
          "Workstation downtime": {
-            "1": 12.2,
-            "2": 5.86,
-            "3": 32.96,
-            "4": 171.19,
-            "5": 59.63,
-            "6": 54.9
+            "1": 14.04,
+            "2": 0,
+            "3": 18.42,
+            "4": 17.88,
+            "5": 26.93,
+            "6": 5.62
          },
-         "Faulty Products Rate": 0.025
+         "Faulty Products Rate": 0.03286384976525822,
+         "Accidents": 1,
+         "Total re-supply events": 70,
+         "Average product processing time": 23.438233701224014,
+         "Processed products": {
+            "1": 213,
+            "2": 206,
+            "3": 199,
+            "4": 192,
+            "5": 193,
+            "6": 186
+         },
+         "Deffect products pero work station": {
+            "1": 3,
+            "2": 2,
+            "3": 0,
+            "4": 0,
+            "5": 1,
+            "6": 1
+         }
       }
    },
    {
       "fecha": "2025-03-16",
       "resultados": {
-         "Final production": 965,
-         "Rejected productions": 35,
-         "Total fix time": 378.2825621253377,
-         "Average bottleneck delay": 3892.3485307084834,
+         "Final production": 974,
+         "Total products generated": 1000,
+         "Rejected productions": 26,
+         "Total fix time": 362.5389007981368,
+         "Average fix time per station": {
+            "1": 5.02,
+            "2": 0.46,
+            "3": 16.76,
+            "4": 68.41,
+            "5": 16.48,
+            "6": 9.32
+         },
+         "Average bottleneck delay": 3909.01158230411,
          "Workstations occupancy": {
-            "1": 4003.93,
-            "2": 3950.11,
-            "3": 3907.46,
-            "4": 3849.25,
-            "5": 3867.91,
-            "6": 3799.43
+            "1": 3996.37,
+            "2": 3975.02,
+            "3": 3922.22,
+            "4": 3871.22,
+            "5": 3887.45,
+            "6": 3825.79
          },
-         "Supplier occupancy": 797.0325105395306,
+         "Average workstation utilization": {
+            "1": 0.17,
+            "2": 0.17,
+            "3": 0.17,
+            "4": 0.16,
+            "5": 0.17,
+            "6": 0.16
+         },
+         "Supplier occupancy time": 761.1980048853196,
          "Workstation downtime": {
-            "1": 18.93,
-            "2": 10.18,
-            "3": 56.9,
-            "4": 132.97,
-            "5": 114.34,
-            "6": 44.95
+            "1": 20.09,
+            "2": 2.74,
+            "3": 50.28,
+            "4": 136.81,
+            "5": 115.35,
+            "6": 37.27
          },
-         "Faulty Products Rate": 0.035
+         "Faulty Products Rate": 0.026,
+         "Accidents": 0,
+         "Total re-supply events": 377,
+         "Average product processing time": 24.901128741566563,
+         "Processed products": {
+            "1": 997,
+            "2": 988,
+            "3": 978,
+            "4": 968,
+            "5": 970,
+            "6": 954
+         },
+         "Deffect products pero work station": {
+            "1": 4,
+            "2": 6,
+            "3": 3,
+            "4": 2,
+            "5": 7,
+            "6": 4
+         }
       }
    },
    {
       "fecha": "2025-03-17",
       "resultados": {
-         "Final production": 972,
-         "Rejected productions": 28,
-         "Total fix time": 451.7314304291786,
-         "Average bottleneck delay": 3902.6729527211787,
+         "Final production": 978,
+         "Total products generated": 1000,
+         "Rejected productions": 22,
+         "Total fix time": 354.25468722884534,
+         "Average fix time per station": {
+            "1": 7.6,
+            "2": 1.53,
+            "3": 56.26,
+            "4": 25.8,
+            "5": 34.52,
+            "6": 6.47
+         },
+         "Average bottleneck delay": 3914.535434774108,
          "Workstations occupancy": {
-            "1": 3998.86,
-            "2": 3953.99,
-            "3": 3911.92,
-            "4": 3875.91,
-            "5": 3880.9,
-            "6": 3818.46
+            "1": 3991.06,
+            "2": 3969.21,
+            "3": 3924.04,
+            "4": 3885.65,
+            "5": 3891.05,
+            "6": 3850.2
          },
-         "Supplier occupancy": 728.5673876294849,
+         "Average workstation utilization": {
+            "1": 0.17,
+            "2": 0.17,
+            "3": 0.17,
+            "4": 0.17,
+            "5": 0.17,
+            "6": 0.16
+         },
+         "Supplier occupancy time": 751.4583500448949,
          "Workstation downtime": {
-            "1": 41.04,
-            "2": 5.95,
-            "3": 80.46,
-            "4": 183.72,
-            "5": 114.84,
-            "6": 25.72
+            "1": 30.39,
+            "2": 9.2,
+            "3": 56.26,
+            "4": 128.98,
+            "5": 103.55,
+            "6": 25.87
          },
-         "Faulty Products Rate": 0.028
+         "Faulty Products Rate": 0.022,
+         "Accidents": 0,
+         "Total re-supply events": 372,
+         "Average product processing time": 24.921641071783046,
+         "Processed products": {
+            "1": 996,
+            "2": 989,
+            "3": 977,
+            "4": 971,
+            "5": 973,
+            "6": 959
+         },
+         "Deffect products pero work station": {
+            "1": 4,
+            "2": 6,
+            "3": 0,
+            "4": 5,
+            "5": 3,
+            "6": 4
+         }
       }
    },
    {
       "fecha": "2025-03-18",
       "resultados": {
-         "Final production": 980,
-         "Rejected productions": 20,
-         "Total fix time": 313.51180227446,
-         "Average bottleneck delay": 3932.220471593147,
+         "Final production": 970,
+         "Total products generated": 1000,
+         "Rejected productions": 30,
+         "Total fix time": 390.8350622440279,
+         "Average fix time per station": {
+            "1": 4.83,
+            "2": 2.79,
+            "3": 10.23,
+            "4": 74.64,
+            "5": 21.02,
+            "6": 5.05
+         },
+         "Average bottleneck delay": 3898.129037408496,
          "Workstations occupancy": {
-            "1": 3996.64,
-            "2": 3981.04,
-            "3": 3961.3,
-            "4": 3912.22,
-            "5": 3907.55,
-            "6": 3858.56
+            "1": 3998.69,
+            "2": 3956.11,
+            "3": 3921.22,
+            "4": 3869.0,
+            "5": 3857.73,
+            "6": 3810.02
          },
-         "Supplier occupancy": 788.3127006327788,
+         "Average workstation utilization": {
+            "1": 0.17,
+            "2": 0.17,
+            "3": 0.17,
+            "4": 0.17,
+            "5": 0.16,
+            "6": 0.16
+         },
+         "Supplier occupancy time": 873.7063637803145,
          "Workstation downtime": {
-            "1": 8.42,
-            "2": 7.64,
-            "3": 46.54,
-            "4": 99.53,
-            "5": 111.59,
-            "6": 39.8
+            "1": 38.66,
+            "2": 11.18,
+            "3": 61.38,
+            "4": 149.28,
+            "5": 105.11,
+            "6": 25.24
          },
-         "Faulty Products Rate": 0.02
+         "Faulty Products Rate": 0.03,
+         "Accidents": 0,
+         "Total re-supply events": 433,
+         "Average product processing time": 25.00643270392684,
+         "Processed products": {
+            "1": 996,
+            "2": 985,
+            "3": 976,
+            "4": 961,
+            "5": 961,
+            "6": 949
+         },
+         "Deffect products pero work station": {
+            "1": 8,
+            "2": 4,
+            "3": 6,
+            "4": 2,
+            "5": 5,
+            "6": 5
+         }
       }
    },
    {
       "fecha": "2025-03-19",
       "resultados": {
-         "Final production": 972,
-         "Rejected productions": 28,
-         "Total fix time": 376.08995552348205,
-         "Average bottleneck delay": 3909.415149341246,
+         "Final production": 966,
+         "Total products generated": 1000,
+         "Rejected productions": 34,
+         "Total fix time": 343.96181748609155,
+         "Average fix time per station": {
+            "1": 5.62,
+            "2": 0.78,
+            "3": 5.94,
+            "4": 28.33,
+            "5": 22.54,
+            "6": 4.46
+         },
+         "Average bottleneck delay": 3902.474682479057,
          "Workstations occupancy": {
-            "1": 4000.53,
-            "2": 3965.1,
+            "1": 3993.73,
+            "2": 3978.59,
             "3": 3930.55,
-            "4": 3867.76,
-            "5": 3888.85,
-            "6": 3827.7
+            "4": 3857.67,
+            "5": 3858.51,
+            "6": 3819.79
          },
-         "Supplier occupancy": 869.4280133919774,
+         "Average workstation utilization": {
+            "1": 0.17,
+            "2": 0.17,
+            "3": 0.17,
+            "4": 0.16,
+            "5": 0.16,
+            "6": 0.16
+         },
+         "Supplier occupancy time": 832.916534992867,
          "Workstation downtime": {
-            "1": 42.73,
-            "2": 13.93,
-            "3": 74.28,
-            "4": 155.41,
-            "5": 67.06,
-            "6": 22.67
+            "1": 16.85,
+            "2": 3.11,
+            "3": 71.22,
+            "4": 113.3,
+            "5": 112.72,
+            "6": 26.75
          },
-         "Faulty Products Rate": 0.028
+         "Faulty Products Rate": 0.034,
+         "Accidents": 0,
+         "Total re-supply events": 415,
+         "Average product processing time": 24.937348372575723,
+         "Processed products": {
+            "1": 995,
+            "2": 987,
+            "3": 981,
+            "4": 960,
+            "5": 961,
+            "6": 947
+         },
+         "Deffect products pero work station": {
+            "1": 3,
+            "2": 4,
+            "3": 12,
+            "4": 4,
+            "5": 5,
+            "6": 6
+         }
       }
    },
    {
       "fecha": "2025-03-20",
       "resultados": {
-         "Final production": 973,
-         "Rejected productions": 27,
-         "Total fix time": 364.13339003004506,
-         "Average bottleneck delay": 3913.1101381837216,
+         "Final production": 959,
+         "Total products generated": 1000,
+         "Rejected productions": 41,
+         "Total fix time": 345.88244608917967,
+         "Average fix time per station": {
+            "1": 3.54,
+            "2": 0.85,
+            "3": 25.31,
+            "4": 17.91,
+            "5": 8.39,
+            "6": 3.04
+         },
+         "Average bottleneck delay": 3896.5197854666985,
          "Workstations occupancy": {
-            "1": 4003.65,
-            "2": 3959.64,
-            "3": 3938.73,
-            "4": 3875.8,
-            "5": 3887.74,
-            "6": 3837.1
+            "1": 4001.11,
+            "2": 3952.43,
+            "3": 3915.75,
+            "4": 3871.94,
+            "5": 3879.34,
+            "6": 3782.55
          },
-         "Supplier occupancy": 846.8555508551393,
+         "Average workstation utilization": {
+            "1": 0.17,
+            "2": 0.17,
+            "3": 0.17,
+            "4": 0.17,
+            "5": 0.17,
+            "6": 0.16
+         },
+         "Supplier occupancy time": 759.0298625481587,
          "Workstation downtime": {
-            "1": 17.39,
-            "2": 8.89,
-            "3": 73.94,
-            "4": 187.73,
-            "5": 65.92,
-            "6": 10.26
+            "1": 17.69,
+            "2": 5.1,
+            "3": 50.63,
+            "4": 161.19,
+            "5": 83.94,
+            "6": 27.34
          },
-         "Faulty Products Rate": 0.027
+         "Faulty Products Rate": 0.041,
+         "Accidents": 0,
+         "Total re-supply events": 376,
+         "Average product processing time": 24.78873903292396,
+         "Processed products": {
+            "1": 994,
+            "2": 986,
+            "3": 977,
+            "4": 964,
+            "5": 962,
+            "6": 942
+         },
+         "Deffect products pero work station": {
+            "1": 5,
+            "2": 6,
+            "3": 2,
+            "4": 9,
+            "5": 10,
+            "6": 9
+         }
       }
    },
    {
       "fecha": "2025-03-21",
       "resultados": {
-         "Final production": 306,
-         "Rejected productions": 5,
-         "Total fix time": 89.9313270023705,
-         "Average bottleneck delay": 1189.2490207249318,
+         "Final production": 969,
+         "Total products generated": 1000,
+         "Rejected productions": 31,
+         "Total fix time": 336.56075275916675,
+         "Average fix time per station": {
+            "1": 7.59,
+            "2": 0.0,
+            "3": 9.62,
+            "4": 19.2,
+            "5": 14.05,
+            "6": 6.44
+         },
+         "Average bottleneck delay": 3908.834794143951,
          "Workstations occupancy": {
-            "1": 1243.44,
-            "2": 1227.54,
-            "3": 1206.44,
-            "4": 1174.59,
-            "5": 1165.92,
-            "6": 1141.57
+            "1": 4008.42,
+            "2": 3952.45,
+            "3": 3938.18,
+            "4": 3870.35,
+            "5": 3885.86,
+            "6": 3821.75
          },
-         "Supplier occupancy": 249.2277830086049,
+         "Average workstation utilization": {
+            "1": 0.17,
+            "2": 0.17,
+            "3": 0.17,
+            "4": 0.16,
+            "5": 0.17,
+            "6": 0.16
+         },
+         "Supplier occupancy time": 727.7149095425309,
          "Workstation downtime": {
-            "1": 0,
+            "1": 22.77,
             "2": 0,
-            "3": 10.74,
-            "4": 38.15,
-            "5": 24.16,
-            "6": 16.88
+            "3": 76.95,
+            "4": 134.38,
+            "5": 70.24,
+            "6": 32.21
          },
-         "Faulty Products Rate": 0.01607717041800643
+         "Faulty Products Rate": 0.031,
+         "Accidents": 0,
+         "Total re-supply events": 365,
+         "Average product processing time": 24.815722288679673,
+         "Processed products": {
+            "1": 996,
+            "2": 990,
+            "3": 982,
+            "4": 965,
+            "5": 964,
+            "6": 949
+         },
+         "Deffect products pero work station": {
+            "1": 3,
+            "2": 3,
+            "3": 8,
+            "4": 7,
+            "5": 5,
+            "6": 5
+         }
       }
    },
    {
       "fecha": "2025-03-22",
       "resultados": {
-         "Final production": 972,
-         "Rejected productions": 28,
-         "Total fix time": 387.89400044429186,
-         "Average bottleneck delay": 3913.9523364420043,
+         "Final production": 974,
+         "Total products generated": 1000,
+         "Rejected productions": 26,
+         "Total fix time": 303.72151941344885,
+         "Average fix time per station": {
+            "1": 10.68,
+            "2": 1.15,
+            "3": 12.43,
+            "4": 27.99,
+            "5": 8.61,
+            "6": 16.96
+         },
+         "Average bottleneck delay": 3911.4784957962675,
          "Workstations occupancy": {
-            "1": 3991.91,
-            "2": 3975.73,
-            "3": 3930.4,
-            "4": 3878.15,
-            "5": 3889.95,
-            "6": 3841.57
+            "1": 3987.72,
+            "2": 3978.35,
+            "3": 3931.69,
+            "4": 3877.2,
+            "5": 3892.4,
+            "6": 3825.51
          },
-         "Supplier occupancy": 807.7384332106044,
+         "Average workstation utilization": {
+            "1": 0.17,
+            "2": 0.17,
+            "3": 0.17,
+            "4": 0.17,
+            "5": 0.17,
+            "6": 0.16
+         },
+         "Supplier occupancy time": 789.0966661711577,
          "Workstation downtime": {
-            "1": 43.38,
-            "2": 10.87,
-            "3": 61.43,
-            "4": 186.64,
-            "5": 64.8,
-            "6": 20.78
+            "1": 21.36,
+            "2": 6.9,
+            "3": 49.71,
+            "4": 139.93,
+            "5": 68.87,
+            "6": 16.96
          },
-         "Faulty Products Rate": 0.028
+         "Faulty Products Rate": 0.026,
+         "Accidents": 0,
+         "Total re-supply events": 391,
+         "Average product processing time": 24.88869903235278,
+         "Processed products": {
+            "1": 995,
+            "2": 990,
+            "3": 981,
+            "4": 965,
+            "5": 969,
+            "6": 950
+         },
+         "Deffect products pero work station": {
+            "1": 2,
+            "2": 6,
+            "3": 4,
+            "4": 5,
+            "5": 8,
+            "6": 1
+         }
       }
    },
    {
       "fecha": "2025-03-23",
       "resultados": {
-         "Final production": 961,
-         "Rejected productions": 39,
-         "Total fix time": 371.20633084053895,
-         "Average bottleneck delay": 3882.21193225639,
+         "Final production": 974,
+         "Total products generated": 1000,
+         "Rejected productions": 26,
+         "Total fix time": 344.11571442706554,
+         "Average fix time per station": {
+            "1": 4.72,
+            "2": 1.27,
+            "3": 11.4,
+            "4": 52.75,
+            "5": 25.77,
+            "6": 3.82
+         },
+         "Average bottleneck delay": 3914.0210871865806,
          "Workstations occupancy": {
-            "1": 3987.18,
-            "2": 3936.25,
-            "3": 3900.18,
-            "4": 3846.67,
-            "5": 3851.01,
-            "6": 3795.99
+            "1": 4008.17,
+            "2": 3958.85,
+            "3": 3924.43,
+            "4": 3882.11,
+            "5": 3882.58,
+            "6": 3851.98
          },
-         "Supplier occupancy": 895.0775824686606,
+         "Average workstation utilization": {
+            "1": 0.17,
+            "2": 0.17,
+            "3": 0.17,
+            "4": 0.17,
+            "5": 0.17,
+            "6": 0.16
+         },
+         "Supplier occupancy time": 850.7369100595802,
          "Workstation downtime": {
-            "1": 20.54,
-            "2": 0,
-            "3": 110.24,
-            "4": 146.43,
-            "5": 76.43,
-            "6": 17.56
+            "1": 23.59,
+            "2": 5.06,
+            "3": 56.98,
+            "4": 158.25,
+            "5": 77.3,
+            "6": 22.92
          },
-         "Faulty Products Rate": 0.039
+         "Faulty Products Rate": 0.026,
+         "Accidents": 0,
+         "Total re-supply events": 424,
+         "Average product processing time": 25.031422960903647,
+         "Processed products": {
+            "1": 996,
+            "2": 986,
+            "3": 979,
+            "4": 966,
+            "5": 969,
+            "6": 957
+         },
+         "Deffect products pero work station": {
+            "1": 5,
+            "2": 4,
+            "3": 5,
+            "4": 3,
+            "5": 3,
+            "6": 6
+         }
       }
    },
    {
       "fecha": "2025-03-24",
       "resultados": {
-         "Final production": 962,
-         "Rejected productions": 38,
-         "Total fix time": 328.5824672529015,
-         "Average bottleneck delay": 3893.8881298176984,
+         "Final production": 968,
+         "Total products generated": 1000,
+         "Rejected productions": 32,
+         "Total fix time": 370.8253256371268,
+         "Average fix time per station": {
+            "1": 7.46,
+            "2": 1.29,
+            "3": 9.27,
+            "4": 31.2,
+            "5": 27.06,
+            "6": 4.98
+         },
+         "Average bottleneck delay": 3901.663228214223,
          "Workstations occupancy": {
-            "1": 4001.76,
-            "2": 3957.78,
-            "3": 3911.47,
-            "4": 3841.08,
-            "5": 3875.74,
-            "6": 3799.52
+            "1": 4010.59,
+            "2": 3962.1,
+            "3": 3928.51,
+            "4": 3861.16,
+            "5": 3855.5,
+            "6": 3816.11
          },
-         "Supplier occupancy": 804.5790978215608,
+         "Average workstation utilization": {
+            "1": 0.17,
+            "2": 0.17,
+            "3": 0.17,
+            "4": 0.16,
+            "5": 0.16,
+            "6": 0.16
+         },
+         "Supplier occupancy time": 806.7983871571548,
          "Workstation downtime": {
-            "1": 19.45,
-            "2": 0,
-            "3": 75.07,
-            "4": 128.86,
-            "5": 81.86,
-            "6": 23.34
+            "1": 29.85,
+            "2": 9.04,
+            "3": 64.87,
+            "4": 156.02,
+            "5": 81.18,
+            "6": 29.86
          },
-         "Faulty Products Rate": 0.038
+         "Faulty Products Rate": 0.032,
+         "Accidents": 0,
+         "Total re-supply events": 399,
+         "Average product processing time": 24.927539322158594,
+         "Processed products": {
+            "1": 997,
+            "2": 988,
+            "3": 978,
+            "4": 963,
+            "5": 962,
+            "6": 951
+         },
+         "Deffect products pero work station": {
+            "1": 4,
+            "2": 7,
+            "3": 7,
+            "4": 5,
+            "5": 3,
+            "6": 6
+         }
       }
    },
    {
       "fecha": "2025-03-25",
       "resultados": {
-         "Final production": 967,
-         "Rejected productions": 33,
-         "Total fix time": 220.73894092582998,
-         "Average bottleneck delay": 3894.9197774323056,
+         "Final production": 968,
+         "Total products generated": 1000,
+         "Rejected productions": 32,
+         "Total fix time": 358.64002130164613,
+         "Average fix time per station": {
+            "1": 11.39,
+            "2": 0.98,
+            "3": 7.63,
+            "4": 37.5,
+            "5": 11.68,
+            "6": 9.7
+         },
+         "Average bottleneck delay": 3896.9083258770456,
          "Workstations occupancy": {
-            "1": 3994.21,
-            "2": 3961.75,
-            "3": 3923.36,
-            "4": 3852.43,
-            "5": 3862.16,
-            "6": 3799.61
+            "1": 3991.84,
+            "2": 3970.18,
+            "3": 3919.18,
+            "4": 3850.88,
+            "5": 3878.68,
+            "6": 3794.68
          },
-         "Supplier occupancy": 909.6937984005968,
+         "Average workstation utilization": {
+            "1": 0.17,
+            "2": 0.17,
+            "3": 0.17,
+            "4": 0.16,
+            "5": 0.17,
+            "6": 0.16
+         },
+         "Supplier occupancy time": 774.7644323399642,
          "Workstation downtime": {
-            "1": 9.95,
-            "2": 2.09,
-            "3": 57.84,
-            "4": 70.84,
-            "5": 66.18,
-            "6": 13.84
+            "1": 45.56,
+            "2": 6.83,
+            "3": 68.71,
+            "4": 150.01,
+            "5": 58.42,
+            "6": 29.11
          },
-         "Faulty Products Rate": 0.033
+         "Faulty Products Rate": 0.032,
+         "Accidents": 0,
+         "Total re-supply events": 387,
+         "Average product processing time": 24.844480303767437,
+         "Processed products": {
+            "1": 997,
+            "2": 989,
+            "3": 978,
+            "4": 959,
+            "5": 961,
+            "6": 947
+         },
+         "Deffect products pero work station": {
+            "1": 4,
+            "2": 7,
+            "3": 9,
+            "4": 4,
+            "5": 5,
+            "6": 3
+         }
       }
    },
    {
       "fecha": "2025-03-26",
       "resultados": {
-         "Final production": 965,
-         "Rejected productions": 35,
-         "Total fix time": 393.21547930283924,
-         "Average bottleneck delay": 3905.7871822042034,
+         "Final production": 972,
+         "Total products generated": 1000,
+         "Rejected productions": 28,
+         "Total fix time": 339.2955562916668,
+         "Average fix time per station": {
+            "1": 3.83,
+            "2": 1.91,
+            "3": 14.51,
+            "4": 66.41,
+            "5": 14.21,
+            "6": 5.07
+         },
+         "Average bottleneck delay": 3907.7396267571908,
          "Workstations occupancy": {
-            "1": 4013.45,
-            "2": 3959.29,
-            "3": 3914.89,
-            "4": 3881.76,
-            "5": 3870.93,
-            "6": 3818.4
+            "1": 4003.12,
+            "2": 3964.4,
+            "3": 3936.47,
+            "4": 3866.79,
+            "5": 3883.91,
+            "6": 3815.74
          },
-         "Supplier occupancy": 721.8114731788792,
+         "Average workstation utilization": {
+            "1": 0.17,
+            "2": 0.17,
+            "3": 0.17,
+            "4": 0.16,
+            "5": 0.17,
+            "6": 0.16
+         },
+         "Supplier occupancy time": 838.5419947827637,
          "Workstation downtime": {
-            "1": 17.53,
-            "2": 9.13,
-            "3": 45.02,
-            "4": 187.02,
-            "5": 80.82,
-            "6": 53.68
+            "1": 15.34,
+            "2": 13.34,
+            "3": 58.02,
+            "4": 132.82,
+            "5": 99.48,
+            "6": 20.3
          },
-         "Faulty Products Rate": 0.035
+         "Faulty Products Rate": 0.028,
+         "Accidents": 0,
+         "Total re-supply events": 419,
+         "Average product processing time": 24.973038708447795,
+         "Processed products": {
+            "1": 997,
+            "2": 989,
+            "3": 978,
+            "4": 961,
+            "5": 967,
+            "6": 951
+         },
+         "Deffect products pero work station": {
+            "1": 4,
+            "2": 7,
+            "3": 4,
+            "4": 2,
+            "5": 7,
+            "6": 4
+         }
       }
    },
    {
       "fecha": "2025-03-27",
       "resultados": {
-         "Final production": 974,
-         "Rejected productions": 26,
-         "Total fix time": 450.4306250180983,
-         "Average bottleneck delay": 3916.8087918945275,
+         "Final production": 980,
+         "Total products generated": 1000,
+         "Rejected productions": 20,
+         "Total fix time": 309.9107100056781,
+         "Average fix time per station": {
+            "1": 21.75,
+            "2": 0.0,
+            "3": 12.38,
+            "4": 122.87,
+            "5": 25.35,
+            "6": 2.98
+         },
+         "Average bottleneck delay": 3936.697428964472,
          "Workstations occupancy": {
-            "1": 3996.07,
-            "2": 3983.0,
-            "3": 3942.0,
-            "4": 3872.1,
-            "5": 3896.0,
-            "6": 3835.68
+            "1": 4002.9,
+            "2": 3982.52,
+            "3": 3953.07,
+            "4": 3910.07,
+            "5": 3921.91,
+            "6": 3873.71
          },
-         "Supplier occupancy": 834.0941881977649,
+         "Average workstation utilization": {
+            "1": 0.17,
+            "2": 0.17,
+            "3": 0.17,
+            "4": 0.17,
+            "5": 0.17,
+            "6": 0.16
+         },
+         "Supplier occupancy time": 694.4794176021094,
          "Workstation downtime": {
-            "1": 20.54,
-            "2": 4.98,
-            "3": 81.34,
-            "4": 185.17,
-            "5": 104.41,
-            "6": 54.0
+            "1": 21.75,
+            "2": 0,
+            "3": 37.13,
+            "4": 122.87,
+            "5": 101.38,
+            "6": 26.78
          },
-         "Faulty Products Rate": 0.026
+         "Faulty Products Rate": 0.02,
+         "Accidents": 0,
+         "Total re-supply events": 347,
+         "Average product processing time": 24.915632477634716,
+         "Processed products": {
+            "1": 995,
+            "2": 991,
+            "3": 985,
+            "4": 974,
+            "5": 977,
+            "6": 961
+         },
+         "Deffect products pero work station": {
+            "1": 0,
+            "2": 3,
+            "3": 3,
+            "4": 1,
+            "5": 4,
+            "6": 9
+         }
       }
    },
    {
       "fecha": "2025-03-28",
       "resultados": {
          "Final production": 980,
+         "Total products generated": 1000,
          "Rejected productions": 20,
-         "Total fix time": 351.7688606142807,
-         "Average bottleneck delay": 3918.059947340162,
+         "Total fix time": 372.24314933172616,
+         "Average fix time per station": {
+            "1": 16.15,
+            "2": 13.21,
+            "3": 14.65,
+            "4": 68.87,
+            "5": 24.71,
+            "6": 2.82
+         },
+         "Average bottleneck delay": 3932.7565426118617,
          "Workstations occupancy": {
-            "1": 4002.31,
-            "2": 3968.21,
-            "3": 3935.75,
-            "4": 3898.66,
-            "5": 3879.42,
-            "6": 3848.0
+            "1": 4004.75,
+            "2": 3971.59,
+            "3": 3969.44,
+            "4": 3904.31,
+            "5": 3898.35,
+            "6": 3872.1
          },
-         "Supplier occupancy": 731.4003270527835,
+         "Average workstation utilization": {
+            "1": 0.17,
+            "2": 0.17,
+            "3": 0.17,
+            "4": 0.17,
+            "5": 0.17,
+            "6": 0.16
+         },
+         "Supplier occupancy time": 759.1487056382725,
          "Workstation downtime": {
-            "1": 21.48,
-            "2": 0.93,
-            "3": 46.99,
-            "4": 169.14,
-            "5": 95.39,
-            "6": 17.83
+            "1": 32.3,
+            "2": 13.21,
+            "3": 73.24,
+            "4": 137.75,
+            "5": 98.83,
+            "6": 16.91
          },
-         "Faulty Products Rate": 0.02
+         "Faulty Products Rate": 0.02,
+         "Accidents": 0,
+         "Total re-supply events": 379,
+         "Average product processing time": 25.03735072350466,
+         "Processed products": {
+            "1": 995,
+            "2": 991,
+            "3": 984,
+            "4": 971,
+            "5": 973,
+            "6": 961
+         },
+         "Deffect products pero work station": {
+            "1": 2,
+            "2": 1,
+            "3": 5,
+            "4": 2,
+            "5": 4,
+            "6": 6
+         }
       }
    },
    {
       "fecha": "2025-03-29",
       "resultados": {
-         "Final production": 964,
-         "Rejected productions": 36,
-         "Total fix time": 377.30651066713267,
-         "Average bottleneck delay": 3895.767187866697,
+         "Final production": 974,
+         "Total products generated": 1000,
+         "Rejected productions": 26,
+         "Total fix time": 363.4227179777666,
+         "Average fix time per station": {
+            "1": 5.14,
+            "2": 11.84,
+            "3": 12.02,
+            "4": 35.78,
+            "5": 15.92,
+            "6": 6.22
+         },
+         "Average bottleneck delay": 3914.117450638763,
          "Workstations occupancy": {
-            "1": 3999.05,
-            "2": 3957.16,
-            "3": 3919.99,
-            "4": 3860.28,
-            "5": 3868.01,
-            "6": 3794.1
+            "1": 3995.02,
+            "2": 3963.9,
+            "3": 3942.57,
+            "4": 3879.32,
+            "5": 3888.25,
+            "6": 3839.65
          },
-         "Supplier occupancy": 677.3417091858462,
+         "Average workstation utilization": {
+            "1": 0.17,
+            "2": 0.17,
+            "3": 0.17,
+            "4": 0.17,
+            "5": 0.17,
+            "6": 0.16
+         },
+         "Supplier occupancy time": 861.8563807170613,
          "Workstation downtime": {
-            "1": 19.98,
-            "2": 0,
-            "3": 71.99,
-            "4": 143.26,
-            "5": 107.16,
-            "6": 34.92
+            "1": 25.69,
+            "2": 11.84,
+            "3": 72.1,
+            "4": 143.1,
+            "5": 79.6,
+            "6": 31.09
          },
-         "Faulty Products Rate": 0.036
+         "Faulty Products Rate": 0.026,
+         "Accidents": 0,
+         "Total re-supply events": 431,
+         "Average product processing time": 25.065488904207733,
+         "Processed products": {
+            "1": 995,
+            "2": 986,
+            "3": 982,
+            "4": 968,
+            "5": 968,
+            "6": 954
+         },
+         "Deffect products pero work station": {
+            "1": 5,
+            "2": 1,
+            "3": 6,
+            "4": 4,
+            "5": 5,
+            "6": 5
+         }
       }
    },
    {
       "fecha": "2025-03-30",
       "resultados": {
-         "Final production": 971,
-         "Rejected productions": 29,
-         "Total fix time": 343.2215008557048,
-         "Average bottleneck delay": 3904.9570967694794,
+         "Final production": 973,
+         "Total products generated": 1000,
+         "Rejected productions": 27,
+         "Total fix time": 395.3812781816646,
+         "Average fix time per station": {
+            "1": 41.54,
+            "2": 0.45,
+            "3": 18.89,
+            "4": 30.9,
+            "5": 11.56,
+            "6": 4.26
+         },
+         "Average bottleneck delay": 3913.2249354882497,
          "Workstations occupancy": {
-            "1": 4000.91,
-            "2": 3961.65,
-            "3": 3907.3,
-            "4": 3867.63,
-            "5": 3888.9,
-            "6": 3827.36
+            "1": 4000.23,
+            "2": 3975.51,
+            "3": 3924.52,
+            "4": 3883.96,
+            "5": 3892.5,
+            "6": 3826.62
          },
-         "Supplier occupancy": 770.9039477676215,
+         "Average workstation utilization": {
+            "1": 0.17,
+            "2": 0.17,
+            "3": 0.17,
+            "4": 0.17,
+            "5": 0.17,
+            "6": 0.16
+         },
+         "Supplier occupancy time": 705.0045853962545,
          "Workstation downtime": {
-            "1": 14.94,
-            "2": 2.69,
-            "3": 50.81,
-            "4": 185.39,
-            "5": 66.38,
-            "6": 23.01
+            "1": 41.54,
+            "2": 2.26,
+            "3": 56.68,
+            "4": 185.41,
+            "5": 92.45,
+            "6": 17.05
          },
-         "Faulty Products Rate": 0.029
+         "Faulty Products Rate": 0.027,
+         "Accidents": 0,
+         "Total re-supply events": 351,
+         "Average product processing time": 24.888308205364165,
+         "Processed products": {
+            "1": 995,
+            "2": 991,
+            "3": 982,
+            "4": 970,
+            "5": 971,
+            "6": 953
+         },
+         "Deffect products pero work station": {
+            "1": 1,
+            "2": 5,
+            "3": 3,
+            "4": 6,
+            "5": 8,
+            "6": 4
+         }
       }
    },
    {
       "fecha": "2025-03-31",
       "resultados": {
-         "Final production": 969,
-         "Rejected productions": 31,
-         "Total fix time": 319.7160765797073,
-         "Average bottleneck delay": 3902.3160835352323,
+         "Final production": 975,
+         "Total products generated": 1000,
+         "Rejected productions": 25,
+         "Total fix time": 336.67333914393726,
+         "Average fix time per station": {
+            "1": 1.38,
+            "2": 0.74,
+            "3": 13.53,
+            "4": 46.4,
+            "5": 23.65,
+            "6": 17.35
+         },
+         "Average bottleneck delay": 3904.77416186825,
          "Workstations occupancy": {
-            "1": 3996.04,
-            "2": 3953.44,
-            "3": 3935.35,
-            "4": 3869.94,
-            "5": 3873.86,
-            "6": 3809.27
+            "1": 3999.29,
+            "2": 3943.09,
+            "3": 3919.97,
+            "4": 3872.91,
+            "5": 3873.82,
+            "6": 3843.57
          },
-         "Supplier occupancy": 650.0935567849313,
+         "Average workstation utilization": {
+            "1": 0.17,
+            "2": 0.17,
+            "3": 0.17,
+            "4": 0.17,
+            "5": 0.17,
+            "6": 0.16
+         },
+         "Supplier occupancy time": 837.596599128379,
          "Workstation downtime": {
-            "1": 20.77,
-            "2": 3.14,
-            "3": 24.02,
-            "4": 163.55,
-            "5": 96.45,
-            "6": 11.78
+            "1": 11.06,
+            "2": 2.98,
+            "3": 54.14,
+            "4": 139.21,
+            "5": 94.59,
+            "6": 34.7
          },
-         "Faulty Products Rate": 0.031
+         "Faulty Products Rate": 0.025,
+         "Accidents": 0,
+         "Total re-supply events": 418,
+         "Average product processing time": 24.959784826760156,
+         "Processed products": {
+            "1": 996,
+            "2": 984,
+            "3": 976,
+            "4": 964,
+            "5": 967,
+            "6": 954
+         },
+         "Deffect products pero work station": {
+            "1": 8,
+            "2": 4,
+            "3": 4,
+            "4": 3,
+            "5": 4,
+            "6": 2
+         }
       }
    },
    {
       "fecha": "2025-04-01",
       "resultados": {
-         "Final production": 974,
-         "Rejected productions": 26,
-         "Total fix time": 308.26493162422184,
-         "Average bottleneck delay": 3920.376374231108,
+         "Final production": 971,
+         "Total products generated": 1000,
+         "Rejected productions": 29,
+         "Total fix time": 360.09482542340913,
+         "Average fix time per station": {
+            "1": 5.96,
+            "2": 0.7,
+            "3": 8.73,
+            "4": 30.86,
+            "5": 17.64,
+            "6": 6.76
+         },
+         "Average bottleneck delay": 3911.312977703043,
          "Workstations occupancy": {
-            "1": 4010.38,
-            "2": 3992.96,
-            "3": 3944.13,
-            "4": 3880.5,
-            "5": 3892.34,
-            "6": 3825.95
+            "1": 4004.99,
+            "2": 3967.52,
+            "3": 3948.4,
+            "4": 3868.46,
+            "5": 3875.44,
+            "6": 3827.08
          },
-         "Supplier occupancy": 819.9093870555639,
+         "Average workstation utilization": {
+            "1": 0.17,
+            "2": 0.17,
+            "3": 0.17,
+            "4": 0.16,
+            "5": 0.16,
+            "6": 0.16
+         },
+         "Supplier occupancy time": 687.0432761774322,
          "Workstation downtime": {
-            "1": 5.9,
-            "2": 0,
-            "3": 31.67,
-            "4": 158.4,
-            "5": 86.08,
-            "6": 26.22
+            "1": 17.89,
+            "2": 2.82,
+            "3": 69.88,
+            "4": 154.31,
+            "5": 88.18,
+            "6": 27.02
          },
-         "Faulty Products Rate": 0.026
+         "Faulty Products Rate": 0.029,
+         "Accidents": 0,
+         "Total re-supply events": 346,
+         "Average product processing time": 24.802628837798775,
+         "Processed products": {
+            "1": 996,
+            "2": 989,
+            "3": 981,
+            "4": 967,
+            "5": 964,
+            "6": 952
+         },
+         "Deffect products pero work station": {
+            "1": 3,
+            "2": 4,
+            "3": 8,
+            "4": 5,
+            "5": 5,
+            "6": 4
+         }
       }
    },
    {
       "fecha": "2025-04-02",
       "resultados": {
-         "Final production": 964,
-         "Rejected productions": 36,
-         "Total fix time": 314.2905610165943,
-         "Average bottleneck delay": 3902.087224173539,
+         "Final production": 969,
+         "Total products generated": 1000,
+         "Rejected productions": 31,
+         "Total fix time": 421.10891209412216,
+         "Average fix time per station": {
+            "1": 14.74,
+            "2": 1.2,
+            "3": 10.79,
+            "4": 24.49,
+            "5": 15.2,
+            "6": 10.73
+         },
+         "Average bottleneck delay": 3908.1437519450137,
          "Workstations occupancy": {
-            "1": 3998.3,
-            "2": 3965.24,
-            "3": 3924.0,
-            "4": 3871.67,
-            "5": 3875.3,
-            "6": 3802.01
+            "1": 3994.14,
+            "2": 3966.71,
+            "3": 3941.34,
+            "4": 3874.85,
+            "5": 3878.01,
+            "6": 3817.81
          },
-         "Supplier occupancy": 715.996165987719,
+         "Average workstation utilization": {
+            "1": 0.17,
+            "2": 0.17,
+            "3": 0.17,
+            "4": 0.17,
+            "5": 0.17,
+            "6": 0.16
+         },
+         "Supplier occupancy time": 764.9018994308265,
          "Workstation downtime": {
-            "1": 21.36,
-            "2": 4.42,
-            "3": 65.18,
-            "4": 114.56,
-            "5": 107.77,
-            "6": 0.99
+            "1": 29.48,
+            "2": 6.01,
+            "3": 75.56,
+            "4": 171.45,
+            "5": 106.42,
+            "6": 32.2
          },
-         "Faulty Products Rate": 0.036
+         "Faulty Products Rate": 0.031,
+         "Accidents": 0,
+         "Total re-supply events": 380,
+         "Average product processing time": 24.949072643078882,
+         "Processed products": {
+            "1": 994,
+            "2": 991,
+            "3": 981,
+            "4": 964,
+            "5": 967,
+            "6": 948
+         },
+         "Deffect products pero work station": {
+            "1": 2,
+            "2": 5,
+            "3": 7,
+            "4": 7,
+            "5": 7,
+            "6": 3
+         }
       }
    },
    {
       "fecha": "2025-04-03",
       "resultados": {
-         "Final production": 968,
-         "Rejected productions": 32,
-         "Total fix time": 290.10664740165987,
-         "Average bottleneck delay": 3895.6024409850966,
+         "Final production": 964,
+         "Total products generated": 1000,
+         "Rejected productions": 36,
+         "Total fix time": 316.20985129068305,
+         "Average fix time per station": {
+            "1": 2.81,
+            "2": 0.35,
+            "3": 9.87,
+            "4": 35.72,
+            "5": 11.58,
+            "6": 4.6
+         },
+         "Average bottleneck delay": 3896.5725316311323,
          "Workstations occupancy": {
-            "1": 3990.7,
-            "2": 3950.44,
-            "3": 3929.37,
-            "4": 3871.1,
-            "5": 3860.24,
-            "6": 3795.77
+            "1": 4012.7,
+            "2": 3962.81,
+            "3": 3908.88,
+            "4": 3862.1,
+            "5": 3858.92,
+            "6": 3798.03
          },
-         "Supplier occupancy": 945.7009241922187,
+         "Average workstation utilization": {
+            "1": 0.17,
+            "2": 0.17,
+            "3": 0.17,
+            "4": 0.17,
+            "5": 0.16,
+            "6": 0.16
+         },
+         "Supplier occupancy time": 796.9296281736198,
          "Workstation downtime": {
-            "1": 28.84,
-            "2": 3.29,
-            "3": 70.61,
-            "4": 92.36,
-            "5": 86.56,
-            "6": 8.45
+            "1": 16.84,
+            "2": 3.11,
+            "3": 49.34,
+            "4": 142.87,
+            "5": 81.08,
+            "6": 22.98
          },
-         "Faulty Products Rate": 0.032
+         "Faulty Products Rate": 0.036,
+         "Accidents": 0,
+         "Total re-supply events": 400,
+         "Average product processing time": 24.808470478316544,
+         "Processed products": {
+            "1": 994,
+            "2": 987,
+            "3": 974,
+            "4": 961,
+            "5": 962,
+            "6": 946
+         },
+         "Deffect products pero work station": {
+            "1": 6,
+            "2": 9,
+            "3": 5,
+            "4": 4,
+            "5": 7,
+            "6": 5
+         }
       }
    },
    {
       "fecha": "2025-04-04",
       "resultados": {
-         "Final production": 966,
-         "Rejected productions": 34,
-         "Total fix time": 333.3017427371856,
-         "Average bottleneck delay": 3893.7676855058144,
+         "Final production": 981,
+         "Total products generated": 1000,
+         "Rejected productions": 19,
+         "Total fix time": 336.0881738844897,
+         "Average fix time per station": {
+            "1": 5.77,
+            "2": 0.0,
+            "3": 30.89,
+            "4": 37.34,
+            "5": 16.03,
+            "6": 18.89
+         },
+         "Average bottleneck delay": 3918.581905442901,
          "Workstations occupancy": {
-            "1": 3996.2,
-            "2": 3959.1,
-            "3": 3906.8,
-            "4": 3851.24,
-            "5": 3866.2,
-            "6": 3807.06
+            "1": 3989.97,
+            "2": 3970.82,
+            "3": 3939.21,
+            "4": 3900.38,
+            "5": 3889.6,
+            "6": 3845.52
          },
-         "Supplier occupancy": 813.2565153502981,
+         "Average workstation utilization": {
+            "1": 0.17,
+            "2": 0.17,
+            "3": 0.17,
+            "4": 0.17,
+            "5": 0.17,
+            "6": 0.16
+         },
+         "Supplier occupancy time": 701.278200194034,
          "Workstation downtime": {
-            "1": 22.89,
-            "2": 8.4,
-            "3": 36.72,
-            "4": 165.93,
-            "5": 66.93,
-            "6": 32.42
+            "1": 23.07,
+            "2": 0,
+            "3": 61.78,
+            "4": 149.36,
+            "5": 64.1,
+            "6": 37.78
          },
-         "Faulty Products Rate": 0.034
+         "Faulty Products Rate": 0.019,
+         "Accidents": 0,
+         "Total re-supply events": 353,
+         "Average product processing time": 24.858031897585413,
+         "Processed products": {
+            "1": 995,
+            "2": 987,
+            "3": 982,
+            "4": 971,
+            "5": 968,
+            "6": 959
+         },
+         "Deffect products pero work station": {
+            "1": 4,
+            "2": 3,
+            "3": 2,
+            "4": 4,
+            "5": 4,
+            "6": 2
+         }
       }
    },
    {
       "fecha": "2025-04-05",
       "resultados": {
-         "Final production": 971,
-         "Rejected productions": 29,
-         "Total fix time": 403.7375151901619,
-         "Average bottleneck delay": 3902.6008415188494,
+         "Final production": 970,
+         "Total products generated": 1000,
+         "Rejected productions": 30,
+         "Total fix time": 419.87134626581576,
+         "Average fix time per station": {
+            "1": 7.82,
+            "2": 0.57,
+            "3": 21.45,
+            "4": 46.33,
+            "5": 13.18,
+            "6": 6.83
+         },
+         "Average bottleneck delay": 3908.4251596305426,
          "Workstations occupancy": {
-            "1": 3998.49,
-            "2": 3961.41,
-            "3": 3927.48,
-            "4": 3881.5,
-            "5": 3859.1,
-            "6": 3811.63
+            "1": 4002.27,
+            "2": 3961.18,
+            "3": 3926.38,
+            "4": 3880.66,
+            "5": 3882.98,
+            "6": 3821.09
          },
-         "Supplier occupancy": 766.1128945412237,
+         "Average workstation utilization": {
+            "1": 0.17,
+            "2": 0.17,
+            "3": 0.17,
+            "4": 0.17,
+            "5": 0.17,
+            "6": 0.16
+         },
+         "Supplier occupancy time": 643.1415111962657,
          "Workstation downtime": {
-            "1": 35.94,
-            "2": 0,
-            "3": 66.2,
-            "4": 184.77,
-            "5": 101.44,
-            "6": 15.39
+            "1": 46.89,
+            "2": 2.27,
+            "3": 85.79,
+            "4": 138.99,
+            "5": 118.62,
+            "6": 27.31
          },
-         "Faulty Products Rate": 0.029
+         "Faulty Products Rate": 0.03,
+         "Accidents": 0,
+         "Total re-supply events": 320,
+         "Average product processing time": 24.797047490319876,
+         "Processed products": {
+            "1": 996,
+            "2": 986,
+            "3": 979,
+            "4": 966,
+            "5": 966,
+            "6": 950
+         },
+         "Deffect products pero work station": {
+            "1": 6,
+            "2": 4,
+            "3": 4,
+            "4": 3,
+            "5": 9,
+            "6": 4
+         }
       }
    },
    {
       "fecha": "2025-04-06",
       "resultados": {
-         "Final production": 973,
-         "Rejected productions": 27,
-         "Total fix time": 435.4910621703529,
-         "Average bottleneck delay": 3919.4035318722504,
+         "Final production": 966,
+         "Total products generated": 1000,
+         "Rejected productions": 34,
+         "Total fix time": 313.1873652783462,
+         "Average fix time per station": {
+            "1": 3.05,
+            "2": 2.55,
+            "3": 4.69,
+            "4": 45.77,
+            "5": 15.74,
+            "6": 3.67
+         },
+         "Average bottleneck delay": 3901.453710593491,
          "Workstations occupancy": {
-            "1": 4007.63,
-            "2": 3979.89,
-            "3": 3952.22,
-            "4": 3881.42,
-            "5": 3879.71,
-            "6": 3839.55
+            "1": 3998.5,
+            "2": 3955.4,
+            "3": 3926.15,
+            "4": 3866.49,
+            "5": 3871.45,
+            "6": 3814.74
          },
-         "Supplier occupancy": 791.2224854864381,
+         "Average workstation utilization": {
+            "1": 0.17,
+            "2": 0.17,
+            "3": 0.17,
+            "4": 0.17,
+            "5": 0.17,
+            "6": 0.16
+         },
+         "Supplier occupancy time": 757.6173467069216,
          "Workstation downtime": {
-            "1": 13.59,
-            "2": 2.8,
-            "3": 85.5,
-            "4": 170.89,
-            "5": 103.77,
-            "6": 58.93
+            "1": 9.14,
+            "2": 12.75,
+            "3": 42.23,
+            "4": 137.32,
+            "5": 78.71,
+            "6": 33.04
          },
-         "Faulty Products Rate": 0.027
+         "Faulty Products Rate": 0.034,
+         "Accidents": 0,
+         "Total re-supply events": 382,
+         "Average product processing time": 24.80414531661853,
+         "Processed products": {
+            "1": 995,
+            "2": 988,
+            "3": 981,
+            "4": 960,
+            "5": 965,
+            "6": 952
+         },
+         "Deffect products pero work station": {
+            "1": 3,
+            "2": 5,
+            "3": 9,
+            "4": 3,
+            "5": 5,
+            "6": 9
+         }
       }
    },
    {
       "fecha": "2025-04-07",
       "resultados": {
-         "Final production": 384,
-         "Rejected productions": 11,
-         "Total fix time": 172.05412723710918,
-         "Average bottleneck delay": 1517.9747623332714,
+         "Final production": 972,
+         "Total products generated": 1000,
+         "Rejected productions": 28,
+         "Total fix time": 374.17163550898937,
+         "Average fix time per station": {
+            "1": 9.15,
+            "2": 1.46,
+            "3": 16.75,
+            "4": 26.41,
+            "5": 109.85,
+            "6": 3.22
+         },
+         "Average bottleneck delay": 3914.4015530872603,
          "Workstations occupancy": {
-            "1": 1579.31,
-            "2": 1551.72,
-            "3": 1530.55,
-            "4": 1511.49,
-            "5": 1489.8,
-            "6": 1468.99
+            "1": 3997.91,
+            "2": 3967.88,
+            "3": 3922.16,
+            "4": 3888.17,
+            "5": 3889.13,
+            "6": 3845.16
          },
-         "Supplier occupancy": 341.3867727848114,
+         "Average workstation utilization": {
+            "1": 0.17,
+            "2": 0.17,
+            "3": 0.17,
+            "4": 0.17,
+            "5": 0.17,
+            "6": 0.16
+         },
+         "Supplier occupancy time": 674.3146047865158,
          "Workstation downtime": {
-            "1": 8.93,
-            "2": 6.45,
-            "3": 49.26,
-            "4": 40.75,
-            "5": 46.45,
-            "6": 20.22
+            "1": 27.45,
+            "2": 8.78,
+            "3": 67.01,
+            "4": 132.06,
+            "5": 109.85,
+            "6": 29.02
          },
-         "Faulty Products Rate": 0.027848101265822784
+         "Faulty Products Rate": 0.028,
+         "Accidents": 0,
+         "Total re-supply events": 329,
+         "Average product processing time": 24.834067500183938,
+         "Processed products": {
+            "1": 997,
+            "2": 990,
+            "3": 980,
+            "4": 967,
+            "5": 969,
+            "6": 958
+         },
+         "Deffect products pero work station": {
+            "1": 3,
+            "2": 6,
+            "3": 4,
+            "4": 5,
+            "5": 1,
+            "6": 9
+         }
       }
    },
    {
       "fecha": "2025-04-08",
       "resultados": {
-         "Final production": 964,
-         "Rejected productions": 36,
-         "Total fix time": 352.5032593805261,
-         "Average bottleneck delay": 3900.2804504457613,
+         "Final production": 976,
+         "Total products generated": 1000,
+         "Rejected productions": 24,
+         "Total fix time": 364.4557222658135,
+         "Average fix time per station": {
+            "1": 3.94,
+            "2": 0.81,
+            "3": 30.41,
+            "4": 54.6,
+            "5": 18.59,
+            "6": 6.55
+         },
+         "Average bottleneck delay": 3912.36308699127,
          "Workstations occupancy": {
-            "1": 4000.0,
-            "2": 3972.22,
-            "3": 3936.59,
-            "4": 3856.59,
-            "5": 3872.89,
-            "6": 3787.39
+            "1": 3998.3,
+            "2": 3960.79,
+            "3": 3922.8,
+            "4": 3894.11,
+            "5": 3883.56,
+            "6": 3838.61
          },
-         "Supplier occupancy": 741.4731147445556,
+         "Average workstation utilization": {
+            "1": 0.17,
+            "2": 0.17,
+            "3": 0.17,
+            "4": 0.17,
+            "5": 0.17,
+            "6": 0.16
+         },
+         "Supplier occupancy time": 848.8072597823686,
          "Workstation downtime": {
-            "1": 25.84,
-            "2": 0,
-            "3": 58.22,
-            "4": 143.74,
-            "5": 106.35,
-            "6": 18.36
+            "1": 15.78,
+            "2": 4.88,
+            "3": 60.81,
+            "4": 163.81,
+            "5": 92.97,
+            "6": 26.2
          },
-         "Faulty Products Rate": 0.036
+         "Faulty Products Rate": 0.024,
+         "Accidents": 0,
+         "Total re-supply events": 426,
+         "Average product processing time": 25.050383553470542,
+         "Processed products": {
+            "1": 996,
+            "2": 988,
+            "3": 978,
+            "4": 966,
+            "5": 970,
+            "6": 956
+         },
+         "Deffect products pero work station": {
+            "1": 4,
+            "2": 6,
+            "3": 2,
+            "4": 3,
+            "5": 5,
+            "6": 4
+         }
       }
    },
    {
       "fecha": "2025-04-09",
       "resultados": {
-         "Final production": 972,
-         "Rejected productions": 28,
-         "Total fix time": 302.12767044527425,
-         "Average bottleneck delay": 3903.212965861192,
+         "Final production": 973,
+         "Total products generated": 1000,
+         "Rejected productions": 27,
+         "Total fix time": 365.4350273260474,
+         "Average fix time per station": {
+            "1": 12.28,
+            "2": 0.0,
+            "3": 8.64,
+            "4": 28.12,
+            "5": 49.83,
+            "6": 9.13
+         },
+         "Average bottleneck delay": 3908.315224770657,
          "Workstations occupancy": {
-            "1": 3979.24,
-            "2": 3955.4,
-            "3": 3940.63,
-            "4": 3864.01,
-            "5": 3884.73,
-            "6": 3819.26
+            "1": 3985.94,
+            "2": 3977.1,
+            "3": 3921.1,
+            "4": 3889.68,
+            "5": 3867.92,
+            "6": 3832.16
          },
-         "Supplier occupancy": 881.6043776634474,
+         "Average workstation utilization": {
+            "1": 0.17,
+            "2": 0.17,
+            "3": 0.17,
+            "4": 0.17,
+            "5": 0.16,
+            "6": 0.16
+         },
+         "Supplier occupancy time": 757.4309743800552,
          "Workstation downtime": {
-            "1": 8.22,
-            "2": 7.11,
-            "3": 56.99,
-            "4": 116.76,
-            "5": 76.5,
-            "6": 36.54
+            "1": 36.85,
+            "2": 0,
+            "3": 51.84,
+            "4": 140.58,
+            "5": 99.65,
+            "6": 36.51
          },
-         "Faulty Products Rate": 0.028
+         "Faulty Products Rate": 0.027,
+         "Accidents": 0,
+         "Total re-supply events": 374,
+         "Average product processing time": 24.903508668807937,
+         "Processed products": {
+            "1": 997,
+            "2": 989,
+            "3": 978,
+            "4": 967,
+            "5": 962,
+            "6": 953
+         },
+         "Deffect products pero work station": {
+            "1": 3,
+            "2": 7,
+            "3": 6,
+            "4": 5,
+            "5": 2,
+            "6": 4
+         }
       }
    },
    {
       "fecha": "2025-04-10",
       "resultados": {
-         "Final production": 977,
-         "Rejected productions": 23,
-         "Total fix time": 265.4634172451504,
-         "Average bottleneck delay": 3917.775358377476,
+         "Final production": 973,
+         "Total products generated": 1000,
+         "Rejected productions": 27,
+         "Total fix time": 289.20774748957035,
+         "Average fix time per station": {
+            "1": 3.81,
+            "2": 0.0,
+            "3": 34.47,
+            "4": 27.22,
+            "5": 19.61,
+            "6": 4.23
+         },
+         "Average bottleneck delay": 3907.2776561189075,
          "Workstations occupancy": {
-            "1": 4001.86,
-            "2": 3955.62,
-            "3": 3929.73,
-            "4": 3883.44,
-            "5": 3908.62,
-            "6": 3851.38
+            "1": 4006.18,
+            "2": 3954.79,
+            "3": 3911.31,
+            "4": 3880.4,
+            "5": 3882.73,
+            "6": 3832.26
          },
-         "Supplier occupancy": 751.8113853529295,
+         "Average workstation utilization": {
+            "1": 0.17,
+            "2": 0.17,
+            "3": 0.17,
+            "4": 0.17,
+            "5": 0.17,
+            "6": 0.16
+         },
+         "Supplier occupancy time": 766.9660342414654,
          "Workstation downtime": {
-            "1": 9.0,
-            "2": 0.75,
-            "3": 42.29,
-            "4": 105.99,
-            "5": 104.76,
-            "6": 2.67
+            "1": 19.04,
+            "2": 0,
+            "3": 34.47,
+            "4": 136.11,
+            "5": 78.42,
+            "6": 21.17
          },
-         "Faulty Products Rate": 0.023
+         "Faulty Products Rate": 0.027,
+         "Accidents": 0,
+         "Total re-supply events": 380,
+         "Average product processing time": 24.82513330042938,
+         "Processed products": {
+            "1": 994,
+            "2": 987,
+            "3": 976,
+            "4": 967,
+            "5": 967,
+            "6": 955
+         },
+         "Deffect products pero work station": {
+            "1": 5,
+            "2": 7,
+            "3": 1,
+            "4": 5,
+            "5": 4,
+            "6": 5
+         }
       }
    },
    {
       "fecha": "2025-04-11",
       "resultados": {
-         "Final production": 974,
-         "Rejected productions": 26,
-         "Total fix time": 287.80037096521454,
-         "Average bottleneck delay": 3918.5747670887345,
+         "Final production": 970,
+         "Total products generated": 1000,
+         "Rejected productions": 30,
+         "Total fix time": 341.8312357710914,
+         "Average fix time per station": {
+            "1": 21.62,
+            "2": 1.33,
+            "3": 11.55,
+            "4": 19.21,
+            "5": 15.03,
+            "6": 4.23
+         },
+         "Average bottleneck delay": 3920.6435975152635,
          "Workstations occupancy": {
-            "1": 4001.58,
-            "2": 3965.19,
-            "3": 3943.37,
-            "4": 3890.99,
-            "5": 3896.56,
-            "6": 3837.76
+            "1": 3994.47,
+            "2": 3970.47,
+            "3": 3954.21,
+            "4": 3887.27,
+            "5": 3899.92,
+            "6": 3841.51
          },
-         "Supplier occupancy": 771.0969424055392,
+         "Average workstation utilization": {
+            "1": 0.17,
+            "2": 0.17,
+            "3": 0.17,
+            "4": 0.17,
+            "5": 0.17,
+            "6": 0.16
+         },
+         "Supplier occupancy time": 752.08343895871,
          "Workstation downtime": {
-            "1": 8.92,
-            "2": 6.11,
-            "3": 91.26,
-            "4": 116.39,
-            "5": 51.02,
-            "6": 14.09
+            "1": 21.62,
+            "2": 3.99,
+            "3": 57.74,
+            "4": 134.47,
+            "5": 90.18,
+            "6": 33.84
          },
-         "Faulty Products Rate": 0.026
+         "Faulty Products Rate": 0.03,
+         "Accidents": 0,
+         "Total re-supply events": 373,
+         "Average product processing time": 24.908419058254697,
+         "Processed products": {
+            "1": 995,
+            "2": 992,
+            "3": 984,
+            "4": 970,
+            "5": 974,
+            "6": 957
+         },
+         "Deffect products pero work station": {
+            "1": 1,
+            "2": 3,
+            "3": 5,
+            "4": 7,
+            "5": 6,
+            "6": 8
+         }
       }
    },
    {
       "fecha": "2025-04-12",
       "resultados": {
-         "Final production": 968,
-         "Rejected productions": 32,
-         "Total fix time": 447.1048077762504,
-         "Average bottleneck delay": 3901.007518524622,
+         "Final production": 977,
+         "Total products generated": 1000,
+         "Rejected productions": 23,
+         "Total fix time": 302.63847389347166,
+         "Average fix time per station": {
+            "1": 7.11,
+            "2": 0.0,
+            "3": 9.6,
+            "4": 29.13,
+            "5": 16.8,
+            "6": 11.64
+         },
+         "Average bottleneck delay": 3909.763714155734,
          "Workstations occupancy": {
-            "1": 3994.86,
-            "2": 3964.08,
-            "3": 3913.52,
-            "4": 3862.93,
-            "5": 3874.01,
-            "6": 3820.64
+            "1": 3987.49,
+            "2": 3964.34,
+            "3": 3933.86,
+            "4": 3895.61,
+            "5": 3873.72,
+            "6": 3827.57
          },
-         "Supplier occupancy": 792.4631545616226,
+         "Average workstation utilization": {
+            "1": 0.17,
+            "2": 0.17,
+            "3": 0.17,
+            "4": 0.17,
+            "5": 0.16,
+            "6": 0.16
+         },
+         "Supplier occupancy time": 703.9107799788364,
          "Workstation downtime": {
-            "1": 12.03,
-            "2": 10.17,
-            "3": 52.51,
-            "4": 145.28,
-            "5": 171.04,
-            "6": 56.08
+            "1": 28.44,
+            "2": 0,
+            "3": 67.21,
+            "4": 116.52,
+            "5": 67.2,
+            "6": 23.27
          },
-         "Faulty Products Rate": 0.032
+         "Faulty Products Rate": 0.023,
+         "Accidents": 0,
+         "Total re-supply events": 352,
+         "Average product processing time": 24.772829455625974,
+         "Processed products": {
+            "1": 995,
+            "2": 986,
+            "3": 983,
+            "4": 967,
+            "5": 965,
+            "6": 955
+         },
+         "Deffect products pero work station": {
+            "1": 4,
+            "2": 2,
+            "3": 7,
+            "4": 4,
+            "5": 4,
+            "6": 2
+         }
       }
    },
    {
       "fecha": "2025-04-13",
       "resultados": {
-         "Final production": 979,
-         "Rejected productions": 21,
-         "Total fix time": 305.59840269082434,
-         "Average bottleneck delay": 3926.7212413824914,
+         "Final production": 968,
+         "Total products generated": 1000,
+         "Rejected productions": 32,
+         "Total fix time": 381.1339508654013,
+         "Average fix time per station": {
+            "1": 6.42,
+            "2": 0.58,
+            "3": 15.01,
+            "4": 24.57,
+            "5": 17.94,
+            "6": 6.66
+         },
+         "Average bottleneck delay": 3896.3344457190615,
          "Workstations occupancy": {
-            "1": 4004.38,
-            "2": 3974.94,
-            "3": 3945.52,
-            "4": 3911.3,
-            "5": 3904.88,
-            "6": 3843.3
+            "1": 3986.39,
+            "2": 3955.4,
+            "3": 3917.15,
+            "4": 3865.92,
+            "5": 3869.14,
+            "6": 3808.01
          },
-         "Supplier occupancy": 719.6196291579404,
+         "Average workstation utilization": {
+            "1": 0.17,
+            "2": 0.17,
+            "3": 0.17,
+            "4": 0.17,
+            "5": 0.17,
+            "6": 0.16
+         },
+         "Supplier occupancy time": 742.1288960664565,
          "Workstation downtime": {
-            "1": 28.18,
-            "2": 6.47,
-            "3": 40.49,
-            "4": 119.96,
-            "5": 80.76,
-            "6": 29.74
+            "1": 32.12,
+            "2": 3.5,
+            "3": 75.07,
+            "4": 147.42,
+            "5": 89.71,
+            "6": 33.31
          },
-         "Faulty Products Rate": 0.021
+         "Faulty Products Rate": 0.032,
+         "Accidents": 0,
+         "Total re-supply events": 372,
+         "Average product processing time": 24.819723060046236,
+         "Processed products": {
+            "1": 995,
+            "2": 987,
+            "3": 977,
+            "4": 959,
+            "5": 967,
+            "6": 949
+         },
+         "Deffect products pero work station": {
+            "1": 5,
+            "2": 6,
+            "3": 5,
+            "4": 6,
+            "5": 5,
+            "6": 5
+         }
       }
    },
    {
       "fecha": "2025-04-14",
       "resultados": {
-         "Final production": 969,
-         "Rejected productions": 31,
-         "Total fix time": 319.9353084142366,
-         "Average bottleneck delay": 3904.4059509143613,
+         "Final production": 970,
+         "Total products generated": 1000,
+         "Rejected productions": 30,
+         "Total fix time": 356.56540890901454,
+         "Average fix time per station": {
+            "1": 2.99,
+            "2": 2.82,
+            "3": 29.81,
+            "4": 72.62,
+            "5": 9.35,
+            "6": 7.72
+         },
+         "Average bottleneck delay": 3897.56257024852,
          "Workstations occupancy": {
-            "1": 4000.55,
-            "2": 3968.77,
-            "3": 3936.58,
-            "4": 3864.0,
-            "5": 3870.96,
-            "6": 3809.58
+            "1": 3993.03,
+            "2": 3936.82,
+            "3": 3909.04,
+            "4": 3886.84,
+            "5": 3870.79,
+            "6": 3812.86
          },
-         "Supplier occupancy": 848.4244070346542,
+         "Average workstation utilization": {
+            "1": 0.17,
+            "2": 0.17,
+            "3": 0.17,
+            "4": 0.17,
+            "5": 0.17,
+            "6": 0.16
+         },
+         "Supplier occupancy time": 731.0843273216688,
          "Workstation downtime": {
-            "1": 32.39,
-            "2": 10.34,
-            "3": 37.86,
-            "4": 149.59,
-            "5": 74.52,
-            "6": 15.23
+            "1": 29.85,
+            "2": 8.47,
+            "3": 59.62,
+            "4": 145.23,
+            "5": 74.8,
+            "6": 38.6
          },
-         "Faulty Products Rate": 0.031
+         "Faulty Products Rate": 0.03,
+         "Accidents": 0,
+         "Total re-supply events": 368,
+         "Average product processing time": 24.777292983726905,
+         "Processed products": {
+            "1": 994,
+            "2": 982,
+            "3": 976,
+            "4": 968,
+            "5": 965,
+            "6": 951
+         },
+         "Deffect products pero work station": {
+            "1": 10,
+            "2": 3,
+            "3": 2,
+            "4": 2,
+            "5": 8,
+            "6": 5
+         }
       }
    },
    {
       "fecha": "2025-04-15",
       "resultados": {
-         "Final production": 968,
-         "Rejected productions": 32,
-         "Total fix time": 370.9654894352814,
-         "Average bottleneck delay": 3896.068951899575,
+         "Final production": 973,
+         "Total products generated": 1000,
+         "Rejected productions": 27,
+         "Total fix time": 347.22026808396265,
+         "Average fix time per station": {
+            "1": 3.4,
+            "2": 1.89,
+            "3": 16.83,
+            "4": 36.56,
+            "5": 15.8,
+            "6": 7.04
+         },
+         "Average bottleneck delay": 3903.8264465587345,
          "Workstations occupancy": {
-            "1": 3992.23,
-            "2": 3961.86,
-            "3": 3903.61,
-            "4": 3860.78,
-            "5": 3861.31,
-            "6": 3820.64
+            "1": 4000.45,
+            "2": 3954.38,
+            "3": 3924.25,
+            "4": 3873.15,
+            "5": 3870.53,
+            "6": 3824.2
          },
-         "Supplier occupancy": 767.1336415603688,
+         "Average workstation utilization": {
+            "1": 0.17,
+            "2": 0.17,
+            "3": 0.17,
+            "4": 0.17,
+            "5": 0.17,
+            "6": 0.16
+         },
+         "Supplier occupancy time": 878.7482127207376,
          "Workstation downtime": {
-            "1": 37.94,
-            "2": 0,
-            "3": 93.6,
-            "4": 115.35,
-            "5": 100.71,
-            "6": 23.36
+            "1": 17.0,
+            "2": 9.47,
+            "3": 67.33,
+            "4": 146.22,
+            "5": 79.02,
+            "6": 28.17
          },
-         "Faulty Products Rate": 0.032
+         "Faulty Products Rate": 0.027,
+         "Accidents": 0,
+         "Total re-supply events": 438,
+         "Average product processing time": 25.030723441444806,
+         "Processed products": {
+            "1": 996,
+            "2": 988,
+            "3": 979,
+            "4": 965,
+            "5": 965,
+            "6": 953
+         },
+         "Deffect products pero work station": {
+            "1": 5,
+            "2": 5,
+            "3": 4,
+            "4": 4,
+            "5": 5,
+            "6": 4
+         }
       }
    },
    {
       "fecha": "2025-04-16",
       "resultados": {
-         "Final production": 976,
-         "Rejected productions": 24,
-         "Total fix time": 386.0734799239007,
-         "Average bottleneck delay": 3930.288940369468,
+         "Final production": 961,
+         "Total products generated": 1000,
+         "Rejected productions": 39,
+         "Total fix time": 335.1489483338501,
+         "Average fix time per station": {
+            "1": 1.64,
+            "2": 0.0,
+            "3": 6.34,
+            "4": 26.45,
+            "5": 11.9,
+            "6": 4.41
+         },
+         "Average bottleneck delay": 3892.4704386612043,
          "Workstations occupancy": {
-            "1": 3996.47,
-            "2": 3981.69,
-            "3": 3933.95,
-            "4": 3905.04,
-            "5": 3920.66,
-            "6": 3867.91
+            "1": 4005.79,
+            "2": 3970.14,
+            "3": 3896.96,
+            "4": 3860.01,
+            "5": 3857.11,
+            "6": 3788.8
          },
-         "Supplier occupancy": 710.1277253178091,
+         "Average workstation utilization": {
+            "1": 0.17,
+            "2": 0.17,
+            "3": 0.17,
+            "4": 0.17,
+            "5": 0.16,
+            "6": 0.16
+         },
+         "Supplier occupancy time": 775.024848601623,
          "Workstation downtime": {
-            "1": 29.04,
-            "2": 1.01,
-            "3": 70.71,
-            "4": 164.38,
-            "5": 79.18,
-            "6": 41.75
+            "1": 6.58,
+            "2": 0,
+            "3": 57.06,
+            "4": 158.69,
+            "5": 95.19,
+            "6": 17.63
          },
-         "Faulty Products Rate": 0.024
+         "Faulty Products Rate": 0.039,
+         "Accidents": 0,
+         "Total re-supply events": 383,
+         "Average product processing time": 24.75429917990534,
+         "Processed products": {
+            "1": 996,
+            "2": 988,
+            "3": 977,
+            "4": 960,
+            "5": 959,
+            "6": 943
+         },
+         "Deffect products pero work station": {
+            "1": 4,
+            "2": 8,
+            "3": 9,
+            "4": 6,
+            "5": 8,
+            "6": 4
+         }
       }
    },
    {
       "fecha": "2025-04-17",
       "resultados": {
-         "Final production": 967,
-         "Rejected productions": 33,
-         "Total fix time": 337.45609659437264,
-         "Average bottleneck delay": 3907.2471616178664,
+         "Final production": 976,
+         "Total products generated": 1000,
+         "Rejected productions": 24,
+         "Total fix time": 388.59748763208165,
+         "Average fix time per station": {
+            "1": 39.86,
+            "2": 1.54,
+            "3": 24.75,
+            "4": 28.12,
+            "5": 9.29,
+            "6": 7.09
+         },
+         "Average bottleneck delay": 3924.3465668272042,
          "Workstations occupancy": {
-            "1": 3992.64,
-            "2": 3970.4,
-            "3": 3940.46,
-            "4": 3873.14,
-            "5": 3885.35,
-            "6": 3805.49
+            "1": 4003.05,
+            "2": 3978.44,
+            "3": 3937.57,
+            "4": 3910.53,
+            "5": 3899.57,
+            "6": 3840.92
          },
-         "Supplier occupancy": 752.6895638763347,
+         "Average workstation utilization": {
+            "1": 0.17,
+            "2": 0.17,
+            "3": 0.17,
+            "4": 0.17,
+            "5": 0.17,
+            "6": 0.16
+         },
+         "Supplier occupancy time": 789.7804699285189,
          "Workstation downtime": {
-            "1": 24.32,
-            "2": 0,
-            "3": 60.23,
-            "4": 161.57,
-            "5": 82.47,
-            "6": 8.87
+            "1": 39.86,
+            "2": 3.08,
+            "3": 74.24,
+            "4": 168.71,
+            "5": 74.34,
+            "6": 28.37
          },
-         "Faulty Products Rate": 0.033
+         "Faulty Products Rate": 0.024,
+         "Accidents": 0,
+         "Total re-supply events": 393,
+         "Average product processing time": 25.053195429749177,
+         "Processed products": {
+            "1": 995,
+            "2": 992,
+            "3": 985,
+            "4": 971,
+            "5": 975,
+            "6": 957
+         },
+         "Deffect products pero work station": {
+            "1": 1,
+            "2": 2,
+            "3": 3,
+            "4": 6,
+            "5": 8,
+            "6": 4
+         }
       }
    },
    {
       "fecha": "2025-04-18",
       "resultados": {
-         "Final production": 334,
-         "Rejected productions": 10,
-         "Total fix time": 153.58822381182407,
-         "Average bottleneck delay": 1301.401039182187,
+         "Final production": 620,
+         "Total products generated": 640,
+         "Rejected productions": 20,
+         "Total fix time": 242.08877957826414,
+         "Average fix time per station": {
+            "1": 5.35,
+            "2": 2.82,
+            "3": 20.87,
+            "4": 15.08,
+            "5": 14.09,
+            "6": 8.38
+         },
+         "Average bottleneck delay": 2486.830959500748,
          "Workstations occupancy": {
-            "1": 1376.84,
-            "2": 1340.64,
-            "3": 1304.29,
-            "4": 1276.48,
-            "5": 1280.72,
-            "6": 1253.44
+            "1": 2570.2,
+            "2": 2536.08,
+            "3": 2503.44,
+            "4": 2466.0,
+            "5": 2460.14,
+            "6": 2409.13
          },
-         "Supplier occupancy": 277.7689096096158,
+         "Average workstation utilization": {
+            "1": 0.17,
+            "2": 0.17,
+            "3": 0.17,
+            "4": 0.17,
+            "5": 0.16,
+            "6": 0.16
+         },
+         "Supplier occupancy time": 523.0751152886661,
          "Workstation downtime": {
-            "1": 3.53,
-            "2": 10.35,
-            "3": 42.87,
-            "4": 52.66,
-            "5": 28.65,
-            "6": 15.52
+            "1": 16.06,
+            "2": 5.64,
+            "3": 41.73,
+            "4": 105.53,
+            "5": 56.36,
+            "6": 16.77
          },
-         "Faulty Products Rate": 0.029069767441860465
+         "Faulty Products Rate": 0.03125,
+         "Accidents": 1,
+         "Total re-supply events": 259,
+         "Average product processing time": 24.609848886660046,
+         "Processed products": {
+            "1": 640,
+            "2": 633,
+            "3": 627,
+            "4": 615,
+            "5": 616,
+            "6": 602
+         },
+         "Deffect products pero work station": {
+            "1": 3,
+            "2": 2,
+            "3": 2,
+            "4": 7,
+            "5": 4,
+            "6": 2
+         }
       }
    },
    {
       "fecha": "2025-04-19",
       "resultados": {
-         "Final production": 970,
-         "Rejected productions": 30,
-         "Total fix time": 422.7027473609489,
-         "Average bottleneck delay": 3901.065215034831,
+         "Final production": 967,
+         "Total products generated": 1000,
+         "Rejected productions": 33,
+         "Total fix time": 305.23764652120104,
+         "Average fix time per station": {
+            "1": 1.4,
+            "2": 0.58,
+            "3": 11.93,
+            "4": 35.44,
+            "5": 21.68,
+            "6": 32.78
+         },
+         "Average bottleneck delay": 3877.304956166688,
          "Workstations occupancy": {
-            "1": 4008.08,
-            "2": 3951.09,
-            "3": 3914.61,
-            "4": 3860.59,
-            "5": 3879.56,
-            "6": 3816.47
+            "1": 4000.08,
+            "2": 3928.95,
+            "3": 3883.89,
+            "4": 3827.86,
+            "5": 3836.96,
+            "6": 3810.08
          },
-         "Supplier occupancy": 707.4369187463951,
+         "Average workstation utilization": {
+            "1": 0.17,
+            "2": 0.17,
+            "3": 0.17,
+            "4": 0.16,
+            "5": 0.16,
+            "6": 0.16
+         },
+         "Supplier occupancy time": 761.6682246906513,
          "Workstation downtime": {
-            "1": 23.3,
-            "2": 10.72,
-            "3": 49.83,
-            "4": 160.39,
-            "5": 117.31,
-            "6": 61.16
+            "1": 14.0,
+            "2": 5.77,
+            "3": 59.66,
+            "4": 106.32,
+            "5": 86.7,
+            "6": 32.78
          },
-         "Faulty Products Rate": 0.03
+         "Faulty Products Rate": 0.033,
+         "Accidents": 0,
+         "Total re-supply events": 378,
+         "Average product processing time": 24.639556862825305,
+         "Processed products": {
+            "1": 994,
+            "2": 982,
+            "3": 968,
+            "4": 956,
+            "5": 956,
+            "6": 945
+         },
+         "Deffect products pero work station": {
+            "1": 10,
+            "2": 10,
+            "3": 5,
+            "4": 3,
+            "5": 4,
+            "6": 1
+         }
       }
    },
    {
       "fecha": "2025-04-20",
       "resultados": {
          "Final production": 965,
+         "Total products generated": 1000,
          "Rejected productions": 35,
-         "Total fix time": 304.3523090590661,
-         "Average bottleneck delay": 3894.640377646472,
+         "Total fix time": 373.94955776576415,
+         "Average fix time per station": {
+            "1": 23.67,
+            "2": 0.47,
+            "3": 6.29,
+            "4": 22.32,
+            "5": 9.67,
+            "6": 16.53
+         },
+         "Average bottleneck delay": 3896.0606121698784,
          "Workstations occupancy": {
-            "1": 3994.39,
-            "2": 3936.64,
-            "3": 3934.62,
-            "4": 3853.69,
-            "5": 3854.98,
-            "6": 3817.51
+            "1": 4011.31,
+            "2": 3975.11,
+            "3": 3915.66,
+            "4": 3845.91,
+            "5": 3877.48,
+            "6": 3774.9
          },
-         "Supplier occupancy": 792.1565438673332,
+         "Average workstation utilization": {
+            "1": 0.17,
+            "2": 0.17,
+            "3": 0.17,
+            "4": 0.16,
+            "5": 0.17,
+            "6": 0.16
+         },
+         "Supplier occupancy time": 751.8020409179444,
          "Workstation downtime": {
-            "1": 30.38,
-            "2": 6.43,
-            "3": 39.18,
-            "4": 137.72,
-            "5": 61.71,
-            "6": 28.92
+            "1": 47.34,
+            "2": 3.3,
+            "3": 56.6,
+            "4": 156.27,
+            "5": 77.39,
+            "6": 33.05
          },
-         "Faulty Products Rate": 0.035
+         "Faulty Products Rate": 0.035,
+         "Accidents": 0,
+         "Total re-supply events": 376,
+         "Average product processing time": 24.812752242068868,
+         "Processed products": {
+            "1": 996,
+            "2": 989,
+            "3": 979,
+            "4": 956,
+            "5": 965,
+            "6": 943
+         },
+         "Deffect products pero work station": {
+            "1": 2,
+            "2": 7,
+            "3": 9,
+            "4": 7,
+            "5": 8,
+            "6": 2
+         }
       }
    },
    {
       "fecha": "2025-04-21",
       "resultados": {
-         "Final production": 977,
-         "Rejected productions": 23,
-         "Total fix time": 403.97133809373224,
-         "Average bottleneck delay": 3912.1886515317806,
+         "Final production": 713,
+         "Total products generated": 734,
+         "Rejected productions": 21,
+         "Total fix time": 276.93449242075195,
+         "Average fix time per station": {
+            "1": 23.11,
+            "2": 1.79,
+            "3": 15.62,
+            "4": 42.31,
+            "5": 19.84,
+            "6": 1.9
+         },
+         "Average bottleneck delay": 2865.82406269435,
          "Workstations occupancy": {
-            "1": 4010.91,
-            "2": 3965.89,
-            "3": 3923.33,
-            "4": 3887.95,
-            "5": 3880.93,
-            "6": 3828.11
+            "1": 2941.51,
+            "2": 2905.75,
+            "3": 2888.81,
+            "4": 2851.3,
+            "5": 2836.72,
+            "6": 2794.86
          },
-         "Supplier occupancy": 736.5050621555472,
+         "Average workstation utilization": {
+            "1": 0.17,
+            "2": 0.17,
+            "3": 0.17,
+            "4": 0.17,
+            "5": 0.16,
+            "6": 0.16
+         },
+         "Supplier occupancy time": 537.4526096674384,
          "Workstation downtime": {
-            "1": 37.56,
-            "2": 20.36,
-            "3": 80.48,
-            "4": 183.02,
-            "5": 62.06,
-            "6": 20.5
+            "1": 23.11,
+            "2": 5.37,
+            "3": 46.85,
+            "4": 126.93,
+            "5": 59.51,
+            "6": 15.16
          },
-         "Faulty Products Rate": 0.023
+         "Faulty Products Rate": 0.02861035422343324,
+         "Accidents": 1,
+         "Total re-supply events": 267,
+         "Average product processing time": 24.619430549002086,
+         "Processed products": {
+            "1": 734,
+            "2": 728,
+            "3": 721,
+            "4": 711,
+            "5": 712,
+            "6": 699
+         },
+         "Deffect products pero work station": {
+            "1": 1,
+            "2": 3,
+            "3": 3,
+            "4": 3,
+            "5": 3,
+            "6": 8
+         }
       }
    },
    {
       "fecha": "2025-04-22",
       "resultados": {
-         "Final production": 260,
-         "Rejected productions": 10,
-         "Total fix time": 51.713913855509524,
-         "Average bottleneck delay": 1011.5795815360016,
+         "Final production": 967,
+         "Total products generated": 1000,
+         "Rejected productions": 33,
+         "Total fix time": 374.14271323048035,
+         "Average fix time per station": {
+            "1": 2.45,
+            "2": 4.91,
+            "3": 15.68,
+            "4": 15.83,
+            "5": 21.53,
+            "6": 5.3
+         },
+         "Average bottleneck delay": 3907.7164403881775,
          "Workstations occupancy": {
-            "1": 1082.43,
-            "2": 1060.51,
-            "3": 1020.88,
-            "4": 988.4,
-            "5": 978.98,
-            "6": 962.28
+            "1": 3996.64,
+            "2": 3964.49,
+            "3": 3946.05,
+            "4": 3886.69,
+            "5": 3867.77,
+            "6": 3808.67
          },
-         "Supplier occupancy": 236.04749872139627,
+         "Average workstation utilization": {
+            "1": 0.17,
+            "2": 0.17,
+            "3": 0.17,
+            "4": 0.17,
+            "5": 0.16,
+            "6": 0.16
+         },
+         "Supplier occupancy time": 735.2573742390376,
          "Workstation downtime": {
-            "1": 1.82,
-            "2": 2.74,
-            "3": 8.44,
-            "4": 27.53,
-            "5": 6.18,
-            "6": 5.0
+            "1": 14.72,
+            "2": 14.73,
+            "3": 62.74,
+            "4": 142.5,
+            "5": 107.67,
+            "6": 31.8
          },
-         "Faulty Products Rate": 0.037037037037037035
+         "Faulty Products Rate": 0.033,
+         "Accidents": 0,
+         "Total re-supply events": 364,
+         "Average product processing time": 24.850177343629962,
+         "Processed products": {
+            "1": 997,
+            "2": 987,
+            "3": 980,
+            "4": 966,
+            "5": 964,
+            "6": 949
+         },
+         "Deffect products pero work station": {
+            "1": 6,
+            "2": 3,
+            "3": 4,
+            "4": 9,
+            "5": 5,
+            "6": 6
+         }
       }
    },
    {
       "fecha": "2025-04-23",
       "resultados": {
-         "Final production": 977,
-         "Rejected productions": 23,
-         "Total fix time": 357.4025264350726,
-         "Average bottleneck delay": 3917.966240898822,
+         "Final production": 973,
+         "Total products generated": 1000,
+         "Rejected productions": 27,
+         "Total fix time": 285.17357708993893,
+         "Average fix time per station": {
+            "1": 8.97,
+            "2": 2.08,
+            "3": 13.18,
+            "4": 12.27,
+            "5": 13.67,
+            "6": 5.02
+         },
+         "Average bottleneck delay": 3923.7993871286653,
          "Workstations occupancy": {
-            "1": 3995.96,
-            "2": 3978.26,
-            "3": 3944.32,
-            "4": 3893.93,
-            "5": 3879.12,
-            "6": 3840.21
+            "1": 3998.31,
+            "2": 3960.08,
+            "3": 3958.98,
+            "4": 3906.33,
+            "5": 3910.49,
+            "6": 3832.6
          },
-         "Supplier occupancy": 807.9265801191964,
+         "Average workstation utilization": {
+            "1": 0.17,
+            "2": 0.17,
+            "3": 0.17,
+            "4": 0.17,
+            "5": 0.17,
+            "6": 0.16
+         },
+         "Supplier occupancy time": 699.7596931944354,
          "Workstation downtime": {
-            "1": 20.63,
-            "2": 7.72,
-            "3": 92.78,
-            "4": 134.62,
-            "5": 86.54,
-            "6": 15.1
+            "1": 26.91,
+            "2": 2.08,
+            "3": 26.36,
+            "4": 122.67,
+            "5": 82.03,
+            "6": 25.11
          },
-         "Faulty Products Rate": 0.023
+         "Faulty Products Rate": 0.027,
+         "Accidents": 0,
+         "Total re-supply events": 349,
+         "Average product processing time": 24.832841460577193,
+         "Processed products": {
+            "1": 995,
+            "2": 990,
+            "3": 985,
+            "4": 972,
+            "5": 973,
+            "6": 956
+         },
+         "Deffect products pero work station": {
+            "1": 3,
+            "2": 1,
+            "3": 2,
+            "4": 10,
+            "5": 6,
+            "6": 5
+         }
       }
    }
 ]

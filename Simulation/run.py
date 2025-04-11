@@ -206,10 +206,8 @@ class Factory:
             return sum(processing_times) / len(processing_times)
         return 0
 
-# Ejecución de la simulación y almacenamiento de resultados
-
 data = []
-archivo = "D3/data/data.json"
+archivo = "/Users/mpreciad/Desktop/Isaac/8vo semestre/Simulacion/Proyecto2/git/SimulationDashboard-SG1_Team5/D3/data/data.json"
 days = 40
 results_dict = {}
 fecha_inicio = datetime.date(2025, 3, 15)
