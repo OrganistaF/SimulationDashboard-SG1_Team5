@@ -1,3 +1,25 @@
+// Define your custom colors for each workstation
+const workstationColors = {
+    workstation1: 'red',   // Workstation 1 = red
+    workstation2: 'blue',  // Workstation 2 = blue
+    workstation3: 'green',
+    workstation4: 'purple',
+    workstation5: 'orange',
+    workstation6: 'yellow'
+};
+
+document.getElementById('workstationFilter').addEventListener('change', function () {
+    const selectedWorkstation = this.value;
+    const colorBox = document.getElementById('workstationColor');
+    
+    // If "all" is selected (or no color indicator is desired), set transparent
+    if (selectedWorkstation === 'all') {
+        colorBox.style.backgroundColor = 'transparent';
+    } else {
+        colorBox.style.backgroundColor = workstationColors[selectedWorkstation];
+    }
+});
+
 document.addEventListener('DOMContentLoaded', function() {
     // Set up dimensions and margins for the main chart
     const margin = { left: 80, right: 150, top: 50, bottom: 100 };
@@ -31,7 +53,7 @@ document.addEventListener('DOMContentLoaded', function() {
     svg.append("text")
         .attr("class", "axis-label y-axis-label")
         .attr("transform", "rotate(-90)")
-        .attr("y", -margin.left + 10)
+        .attr("y", -margin.left + 30)
         .attr("x", -height / 2)
         .style("text-anchor", "middle")
         .text("Workstation Occupancy (hours)");
@@ -46,7 +68,7 @@ document.addEventListener('DOMContentLoaded', function() {
     // Tooltip
     const tooltip = d3.select("#tooltip");
 
-    // Asegurarse de que existan los contenedores de las visualizaciones adicionales; si no, se crean.
+    // Ensure additional visualization containers exist; if not, create them.
     if (d3.select("#info-table").empty()) {
         d3.select("body").append("div").attr("id", "info-table");
     }
@@ -76,7 +98,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
             return {
                 date: new Date(dateEntry.fecha),
-                // Además, mantenemos el objeto original para la tabla y otros gráficos
+                // Also keep the original object for the table and other graphs
                 resultados: dateEntry.resultados,
                 workstations: workstations.filter(ws => 
                     ws.occupancy != null && 
@@ -91,7 +113,7 @@ document.addEventListener('DOMContentLoaded', function() {
             };
         });
 
-        // Para el gráfico de barras y líneas usaremos los datos con la fecha en formato "YYYY-MM-DD"
+        // For the bar and line charts, use data with date formatted as "YYYY-MM-DD"
         formattedData.forEach(d => d.formattedDate = d.date.toISOString().split('T')[0]);
 
         // Get unique workstation IDs
@@ -99,7 +121,7 @@ document.addEventListener('DOMContentLoaded', function() {
             formattedData.flatMap(d => d.workstations.map(w => w.workstation))
         )).sort();
 
-        // Populate workstation filter (en tu control HTML, el select tiene id "workstationFilter")
+        // Populate workstation filter (the select with id "workstationFilter")
         const workstationFilter = d3.select("#workstationFilter");
         allWorkstations.forEach(ws => {
             workstationFilter.append("option")
@@ -107,12 +129,13 @@ document.addEventListener('DOMContentLoaded', function() {
                 .text(`Workstation ${ws}`);
         });
 
+        // --- Populate the indicator legend below the filter ---
+        populateWorkstationIndicator(allWorkstations);
+
         // Set up scales for main chart (xScale: downtime; yScale: occupancy)
         const xScale = d3.scaleLinear()
             .domain([0, d3.max(formattedData.flatMap(d => d.workstations.map(w => w.downtime)))])
             .range([0, width]);
-
-        // La escala Y se actualizará dinámicamente en cada update() segun los datos del día actual.
 
         const areaScale = d3.scaleLinear()
             .domain([0, d3.max(formattedData.flatMap(d => d.workstations.map(w => w.finalProduction)))])
@@ -126,29 +149,29 @@ document.addEventListener('DOMContentLoaded', function() {
         const xAxisCall = d3.axisBottom(xScale)
             .tickFormat(d => `${d}h`);
 
-        const yAxisCall = d3.axisLeft();  // se actualizará con la escala dinámica en update()
+        const yAxisCall = d3.axisLeft();
 
-        ////////////////////////
-        // Funciones adicionales de visualización
-        ////////////////////////
+        ///////////////////////////
+        // Additional visualization functions
+        ///////////////////////////
 
-        // 1. Función para actualizar la tabla de información (resumen del día)
+        // 1. Update information table (daily summary)
         function updateInfoTable(dayData, dateStr) {
             const cont = d3.select("#info-table");
-            cont.html(""); // limpiar contenido
+            cont.html(""); // clear contents
 
             const resumen = dayData.resultados;
             const table = cont.append("table").attr("class", "table");
             const tbody = table.append("tbody");
 
             const rows = [
-                ["Fecha", dateStr],
-                ["Producción final", resumen["Final production"]],
-                ["Rechazos", resumen["Rejected productions"]],
-                ["Accidentes", resumen["Accidents"]],
-                ["Tasa de defectos", (resumen["Faulty Products Rate"] * 100).toFixed(2) + "%"],
-                ["Tiempo total de reparación", resumen["Total fix time"].toFixed(2)],
-                ["Retraso promedio (cuello de botella)", resumen["Average bottleneck delay"].toFixed(2)]
+                ["Date", dateStr],
+                ["Final Production", resumen["Final production"]],
+                ["Rejected Units", resumen["Rejected productions"]],
+                ["Accidents", resumen["Accidents"]],
+                ["Defect Rate", (resumen["Faulty Products Rate"] * 100).toFixed(2) + "%"],
+                ["Total Repair Time", resumen["Total fix time"].toFixed(2)],
+                ["Average Delay (Bottleneck)", resumen["Average bottleneck delay"].toFixed(2)]
             ];
 
             rows.forEach(([label, value]) => {
@@ -158,14 +181,12 @@ document.addEventListener('DOMContentLoaded', function() {
             });
         }
 
-        // 2. Función para dibujar el gráfico de barras de producción diaria
+        // 2. Draw daily production bar chart
         function drawProductionBarChart(data) {
-            // Configuración de dimensiones
             const marginBar = { top: 20, right: 20, bottom: 60, left: 60 };
             const barWidth = 600 - marginBar.left - marginBar.right;
             const barHeight = 300 - marginBar.top - marginBar.bottom;
 
-            // Limpiar contenedor
             d3.select("#production-bar-chart").html("");
 
             const svgBar = d3.select("#production-bar-chart")
@@ -204,71 +225,59 @@ document.addEventListener('DOMContentLoaded', function() {
                 .attr("height", d => barHeight - yBar(d.resultados["Final production"]))
                 .attr("fill", "#69b3a2");
 
-            // Agregar título
             svgBar.append("text")
                 .attr("x", barWidth / 2)
                 .attr("y", -10)
                 .style("text-anchor", "middle")
-                .text("Producción Final Diaria");
+                .text("Daily production");
         }
 
+        // 3. Draw defects pie chart
         function updateDefectPieChart(dayData) {
             const dataPie = Object.entries(dayData.resultados["Deffect products pero work station"]);
             const pieWidth = 300, pieHeight = 300, radius = Math.min(pieWidth, pieHeight) / 2;
         
-            // Seleccionar y limpiar el contenedor del pie chart
             const defectsContainer = d3.select("#defects-pie-chart");
             defectsContainer.html("");
         
-            // Agregar título
             defectsContainer.append("h3")
                 .attr("class", "chart-title")
-                .text("Demostración de defectos por Workstation");
+                .text("Workstations defects demonstration");
         
-            // Crear un contenedor flex para el gráfico y la leyenda
             const chartLegendContainer = defectsContainer.append("div")
                 .attr("class", "chart-legend-container")
                 .style("display", "flex")
                 .style("align-items", "center");
         
-            // Contenedor para el SVG (pie chart)
             const svgContainer = chartLegendContainer.append("div")
                 .attr("class", "svg-container");
         
-            // Crear el SVG para el pie chart
             const svgPie = svgContainer.append("svg")
-            .attr("width", pieWidth)
-            .attr("height", pieHeight)
-            .style("background", "none")  // quitar fondo blanco
-            .style("border", "none")        // quitar el recuadro o borde
-            .append("g")
-            .attr("transform", `translate(${pieWidth / 2}, ${pieHeight / 2})`);
-                        
-            // Definir la escala de colores para que sea consistente en el gráfico y la leyenda
+                .attr("width", pieWidth)
+                .attr("height", pieHeight)
+                .style("background", "none")
+                .style("border", "none")
+                .append("g")
+                .attr("transform", `translate(${pieWidth / 2}, ${pieHeight / 2})`);
+                            
             const colorPie = d3.scaleOrdinal()
                 .domain(dataPie.map(d => d[0]))
                 .range(d3.schemeSet2);
         
-            // Contenedor para la leyenda, ubicado a la derecha del gráfico
             const legendContainer = chartLegendContainer.append("div")
                 .attr("class", "legend-container")
                 .style("margin-left", "20px");
         
-            // Crear la leyenda: para cada par [workstation, value] agregar un bloque
-            dataPie.forEach((item) => {
-                const ws = item[0];
-                const value = item[1];
+            dataPie.forEach(([ws, value]) => {
                 legendContainer.append("div")
                     .attr("class", "legend-item")
                     .html(`<span class="legend-color" style="display:inline-block;width:12px;height:12px;background:${colorPie(ws)};margin-right:6px;"></span>
                            WS ${ws}: ${value}`);
             });
         
-            // Generadores para el pie chart
             const pieGen = d3.pie().value(d => d[1]);
             const arcGen = d3.arc().innerRadius(0).outerRadius(radius);
         
-            // Dibujar los arcos del pie chart
             const arcs = svgPie.selectAll(".arc")
                 .data(pieGen(dataPie))
                 .enter().append("g")
@@ -284,35 +293,29 @@ document.addEventListener('DOMContentLoaded', function() {
                 .attr("font-size", "10px")
                 .text(d => d.data[1] > 0 ? `WS ${d.data[0]}: ${d.data[1]}` : "");
         }
-        
-        
 
-        ////////////////////////
-        // Update function principal (se ejecuta al cambiar día o filtro)
-        ////////////////////////
+        ///////////////////////////
+        // Main update function (called when the day or filter changes)
+        ///////////////////////////
         function update(transition = true) {
             const currentDayData = filteredData[currentIndex];
             const dateStr = currentDayData.date.toISOString().split('T')[0];
 
-            // Actualizar elementos de UI
             dateLabel.text(`Date: ${dateStr}`);
             d3.select("#dateValue").text(dateStr);
             d3.select("#dateSlider").property("value", currentIndex);
 
-            // Filtrar datos según la opción del filtro
             const workstationFilterValue = d3.select("#workstationFilter").property("value");
             const displayData = workstationFilterValue === 'all' 
                 ? currentDayData.workstations 
                 : currentDayData.workstations.filter(w => w.workstation === workstationFilterValue);
 
-            // Actualizar eje X (fijo)
             xAxis.call(xAxisCall.scale(xScale));
 
-            // Actualizar eje Y de manera dinámica basado en "occupancy" del día actual
             const yValues = displayData.map(d => d.occupancy);
             const yMin = d3.min(yValues);
             const yMax = d3.max(yValues);
-            const marginY = 50; // margen extra para la escala
+            const marginY = 50;
 
             const yScaleDynamic = d3.scaleLinear()
                 .domain([Math.max(0, yMin - marginY), yMax + marginY])
@@ -320,7 +323,6 @@ document.addEventListener('DOMContentLoaded', function() {
             yAxisCall.scale(yScaleDynamic);
             yAxis.transition().duration(transition ? 500 : 0).call(yAxisCall);
 
-            // Unir datos con círculos en el gráfico principal
             const circles = svg.selectAll("circle")
                 .data(displayData, d => d.workstation);
 
@@ -362,14 +364,13 @@ document.addEventListener('DOMContentLoaded', function() {
                 .attr("cy", d => yScaleDynamic(d.occupancy))
                 .attr("r", d => Math.sqrt(areaScale(d.finalProduction) / Math.PI));
 
-            // Actualizar visualizaciones adicionales basadas en el día actual
             updateInfoTable(currentDayData, dateStr);
             updateDefectPieChart(currentDayData);
         }
 
-        ////////////////////////
-        // Funciones de control de animación y filtros
-        ////////////////////////
+        ///////////////////////////
+        // Control functions for animation and filters
+        ///////////////////////////
         let currentIndex = 0;
         let isPlaying = false;
         let animationInterval;
@@ -420,21 +421,44 @@ document.addEventListener('DOMContentLoaded', function() {
             update();
         }
 
-        // Asignar eventos para controles
         d3.select("#playPause").on("click", togglePlayPause);
         d3.select("#reset").on("click", reset);
         d3.select("#workstationFilter").on("change", applyFilter);
         d3.select("#dateSlider").on("input", handleSliderChange);
 
-        // Configurar slider de fecha según la cantidad de días
         d3.select("#dateSlider").attr("max", formattedData.length - 1);
 
-        // Dibujar el gráfico de barras de producción final para todos los días (una sola vez)
         drawProductionBarChart(formattedData);
-
-        // Inicializar la visualización principal
         update(false);
     }).catch(function(error) {
         console.error("Error loading the data: ", error);
     });
 });
+
+// --- This function populates the indicator legend below the filter box ---
+function populateWorkstationIndicator(allWorkstations) {
+    // Select the container (which must exist in your HTML)
+    const indicatorContainer = d3.select("#workstationIndicator");
+    indicatorContainer.html(""); // clear if any previous content
+
+    // Style the container via inline styles (or use CSS classes)
+    indicatorContainer.style("display", "flex")
+                      .style("flex-wrap", "wrap")
+                      .style("gap", "10px")
+                      .style("margin-top", "10px");
+
+    // For each workstation (assuming the value is something like "1", "2", etc.)
+    allWorkstations.forEach(ws => {
+        // Construct key string to find the color in your workstationColors object.
+        const key = 'workstation' + ws;
+        const color = workstationColors[key] || "#ccc"; // fallback if not defined
+
+        indicatorContainer.append("div")
+            .attr("class", "workstation-indicator")
+            .style("display", "flex")
+            .style("align-items", "center")
+            .style("gap", "5px")
+            .html(`<span style="display:inline-block;width:12px;height:12px;background:${color};border-radius:50%;"></span>
+                   <span>WS ${ws}</span>`);
+    });
+}

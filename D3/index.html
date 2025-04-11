@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="description" content="">
-    <title>Leaf Project</title>
+    <title>Workstations report</title>
 
     <link rel="stylesheet" href="css/style.css">
     <script src="https://d3js.org/d3.v6.min.js"></script>
@@ -27,24 +27,31 @@
     </div>
 
     <div class="container">
-        <!-- Fila 1: Gráfica principal y Pie Chart -->
-       <!-- Fila 1: Gráfica principal y Pie Chart -->
+
         <div class="row">
-            <div id="chart-area" class="half">
+        <div id="chart-area" class="half">
             <div class="filter-box">
-                <label for="continentFilter">Filter by Continent:</label>
+                <label for="workstationFilter">Filter by Workstation:</label>
                 <select id="workstationFilter">
                     <option value="all">All Workstations</option>
                 </select>
+                <!-- This div will hold the color legend for each workstation -->
+                <div id="workstationIndicator"></div>
             </div>
-            </div>
-            <div id="defects-pie-chart" class="half"></div>
         </div>
+        <div id="defects-pie-chart" class="half"></div>
+        <div class="half">
+            <div id="info-table-container">
+                <div id="info-table"></div>
+            </div>
+        </div>
+    </div>
+    
   
       
         <!-- Fila 2: Tabla de datos y Gráfica de barras -->
         <div class="row">
-          <div id="info-table" class="half"></div>
+          
           <div id="production-bar-chart" class="half"></div>
         </div>
       </div>

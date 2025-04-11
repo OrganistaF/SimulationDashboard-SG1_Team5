@@ -126,7 +126,7 @@ button:hover {
 }
 
 #dateSlider {
-    width: 500px; /* O el tamaño que prefieras */
+    width: 500px;
 }
 .slider-container {
     display: flex;
