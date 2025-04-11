@@ -7,8 +7,10 @@ import pandas as pd
 import datetime
 
 class Product:
-    def __init__(self, product_id):
+    def __init__(self, product_id, env):
         self.id = product_id
+        self.start_time = env.now   # Registra el tiempo de creación/inicio
+        self.finish_time = None     # Se asignará al finalizar el procesamiento
 
 class Workstation:
     def __init__(self, env: simpy.Environment, id, failure_rate, work_time_mean, fix_time_mean, defect_rate):
@@ -19,36 +21,39 @@ class Workstation:
         self.fix_time_mean = fix_time_mean
         self.defect_rate = defect_rate
         self.working = True
-        self.material = 40  # (2) Cada contenedor tiene 25 unidades de material.
+        self.material = 40  # Cada contenedor tiene 40 unidades de material.
         self.processed_count = 0
         self.total_fix_time = 0
         self.occupancy = 0
         self.downtime = 0
         self.supply_material = SupplyMaterial(env)
+        self.defectProductsCount = 0
 
-    def process_product(self, product):
-        """Processes a product, checks for failure, and handles repairs if needed."""
-
+    def process_product(self):
+        """Procesa un producto, comprueba fallos y, de ser necesario, gestiona las reparaciones."""
         if self.material <= 0:
             yield self.env.process(self.supply_material.supply(self))
 
-        if random.random() < self.failure_rate:  # (4) Si una estación falla, debe repararse antes de continuar.
-            fix_time = random.expovariate(1 / self.fix_time_mean)
+        if random.random() < self.failure_rate:
+            fix_time = abs(random.normalvariate(self.fix_time_mean, 0.5))
+            
+
             self.total_fix_time += fix_time
             self.downtime += fix_time
-            yield self.env.timeout(fix_time)  # Simulando tiempo de reparación.
+            yield self.env.timeout(fix_time)  # Tiempo de reparación
 
         process_time = abs(random.normalvariate(self.work_time_mean, 0.2))
         self.occupancy += process_time
-        yield self.env.timeout(process_time)  # Simulando trabajo.
+        yield self.env.timeout(process_time)  # Simula el tiempo de procesamiento
         self.processed_count += 1
         self.material -= 1
 
-        # (7) Cada producto tiene una probabilidad de ser defectuoso después de ser procesado.
+        # Determina si el producto es defectuoso.
         if random.random() < self.defect_rate:
-            return False  # Producto defectuoso.
-        return True  # Producto aprobado.
-
+            self.defectProductsCount += 1
+            
+            return False
+        return True
 
 class SupplyMaterial:
     def __init__(self, env: simpy.Environment):
@@ -56,15 +61,17 @@ class SupplyMaterial:
         self.supply_devices = simpy.Resource(env, capacity=3)
         self.supply_time = 0
         self.occupancy = 0
+        self.supply_count = 0  # Contador de eventos de reabastecimiento
 
     def supply(self, workstation: Workstation):
-        """Resupplies a workstation with material."""
+        """Reabastece una estación de trabajo con material."""
         with self.supply_devices.request() as request:
-            yield request  # Esperar disponibilidad del recurso.
+            yield request  # Espera a que el recurso esté disponible.
             supply_time = abs(random.normalvariate(2, 0.2))
             self.occupancy += supply_time
-            yield self.env.timeout(supply_time)  # Simulando tiempo de suministro.
-            workstation.material = 40  # (3) Si una estación se queda sin material, debe reabastecerse.
+            yield self.env.timeout(supply_time)  # Simula el tiempo de suministro.
+            workstation.material = 40  # Se reabastece la estación.
+            self.supply_count += 1  # Incrementa el contador de reabastecimientos.
 
 class Factory:
     
@@ -80,10 +87,6 @@ class Factory:
         self.downtime = 0
         self.simulation_running = True
 
-        
-
-        
-
     def run_simulation(self, time_limit):
         self.simulation = self.env.process(self.generate_products())
         self.timeLimit = time_limit
@@ -93,29 +96,33 @@ class Factory:
         avg_fix_time = sum(ws.total_fix_time for ws in self.workstations)
         avg_bottleneck_delay = self.calculate_bottleneck_delay()
         supply_material_occupancy = sum(ws.supply_material.occupancy for ws in self.workstations)
+        totalOcuppancy = sum(ws.occupancy for ws in self.workstations)
 
         results = {
             "Final production": final_production,
+            "Total products generated": len(self.products),
             "Rejected productions": self.rejected_products,
             "Total fix time": avg_fix_time,
+            "Average fix time per station": {ws.name: round(ws.total_fix_time / (ws.defectProductsCount if ws.defectProductsCount != 0 else 1), 2) for ws in self.workstations},
             "Average bottleneck delay": avg_bottleneck_delay,
             "Workstations occupancy": self.get_workstations_occupancy(),
-            "Supplier occupancy": supply_material_occupancy,
+            "Average workstation utilization": {ws.name: round(ws.occupancy / totalOcuppancy, 2) for ws in self.workstations},
+            "Supplier occupancy time": supply_material_occupancy,
             "Workstation downtime": self.get_workstation_downtime(),
-            "Faulty Products Rate": self.rejected_products / (1 if len(self.products) == 0 else len(self.products))
+            "Faulty Products Rate": self.rejected_products / (len(self.products) if len(self.products) != 0 else 1),
+            "Accidents": self.accidents,
+            "Total re-supply events": self.get_total_supply_events(),
+            "Average product processing time": self.calculate_average_processing_time(),
+            "Processed products" : {ws.name: ws.processed_count for ws in self.workstations},
+            "Deffect products pero work station": {ws.name: ws.defectProductsCount for ws in self.workstations}
         }
         return results
 
     def process_product_through_workstations(self, product):
-        selectedProduct = 1
-
-        """Moves a product through all 6 workstations, handling failures and supply needs."""
-        
+        """Mueve un producto a través de todas las estaciones de trabajo manejando fallos y necesidades de suministro."""
         randomChoice = random.choice([3, 4])
 
-        # Bucle para pasar por todas las estaciones
         for i in range(len(self.workstations)):
-        
             station = self.workstations[i]
 
             if i == 3:
@@ -126,53 +133,51 @@ class Factory:
                 else:
                     station = self.workstations[3]
             
-            # Ejecutar el proceso de la estación y esperar el resultado
-            # print(f"procesando producto {product.id} en la estación {station.name}")
-            result = yield self.env.process(station.process_product(product))
+            result = yield self.env.process(station.process_product())
 
             if not self.simulation_running:
                 break
 
-            # Si el producto es defectuoso, se cuenta como rechazado.
-            if not result:  
+            # Si el producto es defectuoso, se marca como rechazado y se finaliza su proceso.
+            if not result:
+                product.finish_time = self.env.now  # Se marca el fin del procesamiento
                 self.rejected_products += 1
-                return  # Detener el proceso si el producto es defectuoso
+                return  
+        
+        # Producto procesado correctamente; se marca el fin del procesamiento.
+        product.finish_time = self.env.now
 
-                
     def generate_products(self):
-        """Generates products at the start and moves them through the system."""
+        """Genera productos a intervalos regulares y los envía a procesarse por el sistema."""
         product_id = 0
         while self.simulation_running:
             try:
-                product = Product(product_id)
-                product_id+=1
+                product = Product(product_id, self.env)
+                product_id += 1
                 self.products.append(product)
                 self.env.process(self.process_product_through_workstations(product))
                 self.check_for_accident()
-                if env.now == self.timeLimit-1:
-                    print(f"Simulation finished succesfully in time. {env.now+1}")
+                if self.env.now == self.timeLimit - 1:
+                    print(f"Simulation finished successfully in time. {self.env.now+1}")
 
-                yield self.env.timeout(1)  # Genera un nuevo producto cada unidad de tiempo.
+                yield self.env.timeout(1)  # Un nuevo producto se genera cada unidad de tiempo.
                 
             except simpy.Interrupt:
-                print('The bank is closes at %.2f get out' % (self._env.now))
+                print('The bank is closed at %.2f, get out' % (self.env.now))
         if not self.simulation_running:
-            print(f"Simulation has interrupted in time. {env.now}")
+            print(f"Simulation has interrupted in time. {self.env.now}")
 
     def check_for_accident(self):
-        #(10) Existe una probabilidad del 0.01% de que ocurra un accidente en la fábrica, lo que detendría la producción.
+        """Comprueba si ocurre un accidente que detenga la producción."""
         if random.random() < 0.0001:
             self.accidents += 1
-            # print("Accident occurred! Production stopped.")
             self.simulation_running = False
-            
             return True
         return False
 
     def calculate_bottleneck_delay(self):
         bottleneck_delay = 0
         for ws in self.workstations:
-            # (6) Cada estación tiene un tiempo promedio de procesamiento y reparación.
             if ws.occupancy > ws.work_time_mean * 1.2:
                 bottleneck_delay += ws.occupancy - ws.work_time_mean
         return bottleneck_delay / len(self.workstations)
@@ -183,6 +188,25 @@ class Factory:
     def get_workstation_downtime(self):
         return {ws.name: round(ws.downtime, 2) for ws in self.workstations}
 
+    def get_total_supply_events(self):
+        """Cuenta la cantidad total de eventos de reabastecimiento en todas las estaciones."""
+        total_supply = sum(ws.supply_material.supply_count for ws in self.workstations)
+        return total_supply
+
+    def calculate_average_processing_time(self):
+        """
+        Calcula el tiempo promedio de procesamiento de los productos.
+        Solo se consideran aquellos productos que hayan finalizado su procesamiento.
+        """
+        processing_times = [
+            (prod.finish_time - prod.start_time)
+            for prod in self.products if prod.finish_time is not None
+        ]
+        if processing_times:
+            return sum(processing_times) / len(processing_times)
+        return 0
+
+# Ejecución de la simulación y almacenamiento de resultados
 
 data = []
 archivo = "D3/data/data.json"
@@ -204,15 +228,9 @@ for i in range(days):
     }
     data.append(entry)
 
-# Guardar todo en un archivo JSON
+# Guardar resultados en un archivo JSON
 with open(archivo, "w") as f:
     json.dump(data, f, indent=3)
 
-
-import pandas as pd
-
-# Convertir la lista de resultados en un DataFrame
+# Conversión de resultados a DataFrame para análisis
 df = pd.DataFrame(data)
-
-# Obtener estadísticas descriptivas
-#print(df.describe())
