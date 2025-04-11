@@ -1,49 +1,112 @@
-#chart-area svg {
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-}
-
-#logo {
-    height: 50px;
-}
-
-.navbar-brand {
-    height: 60px;
-    padding: 5px 0px;
-}
-
+/* Fondo general de la página */
 body {
     font-family: Arial, sans-serif;
     margin: 20px;
+    background-color: #f0f0f0; /* fondo gris claro */
 }
 
+/* Contenedor general para centralizar contenido y darle un poco de padding */
+.container {
+    width: 90%;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    background-color: #f0f0f0; /* o el fondo que prefieras para la página */
+}
+
+/* Mejoras en los controles */
 .controls {
-    margin: 20px;
-    padding: 15px;
-    background: #f5f5f5;
-    border-radius: 5px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: white; /* O el color de fondo que prefieras */
+    padding: 10px 20px;
+    z-index: 999; /* Para que esté encima del resto del contenido */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Sombra opcional para diferenciarlo */
 }
 
-.control-group {
-    margin: 10px 0;
+.container {
+    margin-top: 130px; /* Deja espacio para que el contenido no quede debajo del fixed */
 }
 
+/* Botones con efecto hover */
 button {
     padding: 8px 15px;
     margin-right: 10px;
     cursor: pointer;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+button:hover {
+    background-color: #0056b3;
 }
 
-.axis-label {
-    font-size: 12px;
+/* Estilos para la tabla de métricas */
+.metrics-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background: #fff;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);  /* sombra para dar profundidad */
+    border-radius: 4px;
+    overflow: hidden;  /* para que la sombra no se corte si usas border-radius */
 }
 
-.date-label {
-    font-size: 24px;
-    font-weight: bold;
+.metrics-table th,
+.metrics-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
 }
 
+.metrics-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* Estilos adicionales para el SVG del gráfico central */
+#chart-area svg {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    background: #fafafa;  /* fondo claro para el gráfico, que contrasta con el fondo gris de la página */
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+/* Ajustes para el pie chart y otros contenedores */
+#defects-pie-chart svg {
+    display: block;
+    margin: auto;
+    background: #ffffff;  /* fondo blanco para destacar la info en el pie chart */
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+/* Si deseas agregar más separación entre elementos en la vista flex */
+.flex-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-bottom: 40px;
+    justify-content: center; /* centra los gráficos en la fila */
+}
+
+/* Opcional: estilos para resaltar el encabezado de la página o logo */
+.navbar, .navbar-brand {
+    background-color: #007BFF;
+    color: #fff;
+}
+.navbar-brand {
+    font-size: 1.5em;
+}
+
+/* Estilo para tooltips (si deseas mayor contraste o suavidad) */
 .tooltip {
     position: absolute;
     padding: 8px;
@@ -52,21 +115,36 @@ button {
     border-radius: 4px;
     pointer-events: none;
     font-size: 12px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
 }
 
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-bottom: 40px;
+}
+
+#dateSlider {
+    width: 500px; /* O el tamaño que prefieras */
+}
 .slider-container {
-    width: 80%;
-    margin: 20px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-.slider-container input {
-    width: 100%;
+.filter-box {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: rgba(255,255,255,0.8);
+    padding: 8px 12px;
+    border-radius: 6px;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.2);
+    font-size: 14px;
 }
 
-.legend-entry text {
-    font-size: 12px;
-}
-
-.x-axis text, .y-axis text {
-    font-size: 12px;
+#chart-area {
+    position: relative;
 }

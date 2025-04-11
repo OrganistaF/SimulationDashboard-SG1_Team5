@@ -11,38 +11,44 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-default">
-        <div class="container">
-        </div>
-    </nav>
+
 
     <div class="controls">
         <div class="control-group">
             <button id="playPause">Play</button>
             <button id="reset">Reset</button>
         </div>
-        <div class="control-group">
-            <label for="continentFilter">Filter by Continent:</label>
-            <select id="workstationFilter">
-                <option value="all">All Workstations</option>
-            </select>
-        </div>
+      
         <div class="slider-container">
-            <label for="dateSlider" >Year: <span id="dateValue">1800</span></label>
+            <label for="dateSlider" >Date: <span id="dateValue">1800</span></label>
             <input type="range" id="dateSlider" min="0" max="220" step="1" value="0">
         </div>
+
     </div>
 
-
-    <!-- Bootstrap grid setup -->
     <div class="container">
+        <!-- Fila 1: Gráfica principal y Pie Chart -->
+       <!-- Fila 1: Gráfica principal y Pie Chart -->
         <div class="row">
-            <div id="chart-area"></div>  
+            <div id="chart-area" class="half">
+            <div class="filter-box">
+                <label for="continentFilter">Filter by Continent:</label>
+                <select id="workstationFilter">
+                    <option value="all">All Workstations</option>
+                </select>
+            </div>
+            </div>
+            <div id="defects-pie-chart" class="half"></div>
         </div>
-    </div>
-
-
-
+  
+      
+        <!-- Fila 2: Tabla de datos y Gráfica de barras -->
+        <div class="row">
+          <div id="info-table" class="half"></div>
+          <div id="production-bar-chart" class="half"></div>
+        </div>
+      </div>
+      
 
 <script src="js/main.js"></script>
 
